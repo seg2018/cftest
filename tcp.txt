@@ -1,0 +1,925 @@
+14:25:30.456280 IP a23-46-57-32.deploy.static.akamaitechnologies.com.https > 172.16.1.226.55519: Flags [P.], seq 1230056777:1230056808, ack 1568035174, win 1006, options [nop,nop,TS val 276319536 ecr 915793075], length 31
+14:25:30.456333 IP 172.16.1.226.55519 > a23-46-57-32.deploy.static.akamaitechnologies.com.https: Flags [.], ack 31, win 4095, options [nop,nop,TS val 915861766 ecr 276319536], length 0
+14:25:30.456466 IP 172.16.1.226.55519 > a23-46-57-32.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 1:32, ack 31, win 4096, options [nop,nop,TS val 915861766 ecr 276319536], length 31
+14:25:30.457412 IP a23-46-57-32.deploy.static.akamaitechnologies.com.https > 172.16.1.226.55519: Flags [F.], seq 31, ack 1, win 1006, options [nop,nop,TS val 276319536 ecr 915793075], length 0
+14:25:30.457462 IP 172.16.1.226.55519 > a23-46-57-32.deploy.static.akamaitechnologies.com.https: Flags [.], ack 32, win 4096, options [nop,nop,TS val 915861767 ecr 276319536], length 0
+14:25:30.457731 IP 172.16.1.226.55519 > a23-46-57-32.deploy.static.akamaitechnologies.com.https: Flags [F.], seq 32, ack 32, win 4096, options [nop,nop,TS val 915861767 ecr 276319536], length 0
+14:25:30.472392 IP a23-46-57-32.deploy.static.akamaitechnologies.com.https > 172.16.1.226.55519: Flags [R], seq 1230056809, win 0, length 0
+14:25:30.474382 IP a23-46-57-32.deploy.static.akamaitechnologies.com.https > 172.16.1.226.55519: Flags [R], seq 1230056809, win 0, length 0
+14:25:30.621236 IP 172.16.1.226.63748 > 172.16.1.1.domain: 35929+ PTR? 32.57.46.23.in-addr.arpa. (42)
+14:25:30.874088 IP 172.16.1.1.domain > 172.16.1.226.63748: 35929 1/6/6 PTR a23-46-57-32.deploy.static.akamaitechnologies.com. (313)
+14:25:30.875375 IP 172.16.1.226.64597 > 172.16.1.1.domain: 45632+ PTR? 226.1.16.172.in-addr.arpa. (43)
+14:25:30.876815 IP 172.16.1.1.domain > 172.16.1.226.64597: 45632 NXDomain 0/0/0 (43)
+14:25:31.883010 IP 172.16.1.226.60960 > 172.16.1.1.domain: 21132+ PTR? 1.1.16.172.in-addr.arpa. (41)
+14:25:31.887415 IP 172.16.1.1.domain > 172.16.1.226.60960: 21132 NXDomain 0/0/0 (41)
+14:25:38.821838 IP 172.16.1.226.55465 > nuq04s29-in-f5.1e100.net.https: Flags [P.], seq 776839757:776839803, ack 1018533202, win 4096, options [nop,nop,TS val 915870125 ecr 2874847261], length 46
+14:25:38.821927 IP 172.16.1.226.55482 > 45.60.31.34.https: Flags [P.], seq 3447189271:3447189317, ack 1276228615, win 4096, options [nop,nop,TS val 915870125 ecr 1584964359], length 46
+14:25:38.821961 IP 172.16.1.226.55465 > nuq04s29-in-f5.1e100.net.https: Flags [F.], seq 46, ack 1, win 4096, options [nop,nop,TS val 915870125 ecr 2874847261], length 0
+14:25:38.822375 IP 172.16.1.226.55442 > pf-in-f189.1e100.net.https: Flags [P.], seq 4010664745:4010664791, ack 3369873712, win 4096, options [nop,nop,TS val 915870125 ecr 16446395], length 46
+14:25:38.822401 IP 172.16.1.226.55482 > 45.60.31.34.https: Flags [F.], seq 46, ack 1, win 4096, options [nop,nop,TS val 915870125 ecr 1584964359], length 0
+14:25:38.822798 IP 172.16.1.226.55442 > pf-in-f189.1e100.net.https: Flags [F.], seq 46, ack 1, win 4096, options [nop,nop,TS val 915870125 ecr 16446395], length 0
+14:25:38.852728 IP 45.60.31.34.https > 172.16.1.226.55482: Flags [P.], seq 1:32, ack 47, win 260, options [nop,nop,TS val 1585019008 ecr 915870125], length 31
+14:25:38.852807 IP 172.16.1.226.55482 > 45.60.31.34.https: Flags [R], seq 3447189318, win 0, length 0
+14:25:38.855036 IP 45.60.31.34.https > 172.16.1.226.55482: Flags [F.], seq 32, ack 47, win 260, options [nop,nop,TS val 1585019008 ecr 915870125], length 0
+14:25:38.855066 IP 172.16.1.226.55482 > 45.60.31.34.https: Flags [R], seq 3447189318, win 0, length 0
+14:25:38.896168 IP 172.16.1.226.64239 > 172.16.1.1.domain: 511+ PTR? 5.192.58.216.in-addr.arpa. (43)
+14:25:38.919947 IP nuq04s29-in-f5.1e100.net.https > 172.16.1.226.55465: Flags [.], ack 46, win 196, options [nop,nop,TS val 2875070001 ecr 915870125], length 0
+14:25:38.923842 IP nuq04s29-in-f5.1e100.net.https > 172.16.1.226.55465: Flags [F.], seq 1, ack 47, win 196, options [nop,nop,TS val 2875070001 ecr 915870125], length 0
+14:25:38.923919 IP 172.16.1.226.55465 > nuq04s29-in-f5.1e100.net.https: Flags [.], ack 2, win 4096, options [nop,nop,TS val 915870223 ecr 2875070001], length 0
+14:25:38.926084 IP pf-in-f189.1e100.net.https > 172.16.1.226.55442: Flags [.], ack 46, win 234, options [nop,nop,TS val 16641109 ecr 915870125], length 0
+14:25:38.926087 IP pf-in-f189.1e100.net.https > 172.16.1.226.55442: Flags [F.], seq 1, ack 47, win 234, options [nop,nop,TS val 16641109 ecr 915870125], length 0
+14:25:38.926172 IP 172.16.1.226.55442 > pf-in-f189.1e100.net.https: Flags [.], ack 2, win 4096, options [nop,nop,TS val 915870225 ecr 16641109], length 0
+14:25:38.926978 IP 172.16.1.1.domain > 172.16.1.226.64239: 511 1/6/5 PTR nuq04s29-in-f5.1e100.net. (278)
+14:25:38.928117 IP 172.16.1.226.50127 > 172.16.1.1.domain: 43631+ PTR? 34.31.60.45.in-addr.arpa. (42)
+14:25:38.944340 IP 172.16.1.1.domain > 172.16.1.226.50127: 43631 NXDomain 0/0/0 (42)
+14:25:38.945678 IP 172.16.1.226.54621 > 172.16.1.1.domain: 40216+ PTR? 189.202.194.173.in-addr.arpa. (46)
+14:25:38.976522 IP 172.16.1.1.domain > 172.16.1.226.54621: 40216 1/6/6 PTR pf-in-f189.1e100.net. (288)
+14:25:42.675925 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55513: Flags [P.], seq 394483583:394483629, ack 3699413063, win 126, options [nop,nop,TS val 942574874 ecr 915809731], length 46
+14:25:42.675961 IP 172.16.1.226.55513 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [.], ack 46, win 4094, options [nop,nop,TS val 915873969 ecr 942574874], length 0
+14:25:42.676119 IP 172.16.1.226.55513 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [F.], seq 1, ack 46, win 4096, options [nop,nop,TS val 915873969 ecr 942574874], length 0
+14:25:42.676282 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55513: Flags [P.], seq 46:77, ack 1, win 126, options [nop,nop,TS val 942574874 ecr 915809731], length 31
+14:25:42.676295 IP 172.16.1.226.55513 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [F.], seq 1, ack 77, win 4095, options [nop,nop,TS val 915873969 ecr 942574874], length 0
+14:25:42.676377 IP 172.16.1.226.55513 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [F.], seq 1, ack 77, win 4096, options [nop,nop,TS val 915873969 ecr 942574874], length 0
+14:25:42.676382 IP 172.16.1.226.55513 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [F.], seq 1, ack 77, win 4096, options [nop,nop,TS val 915873969 ecr 942574874], length 0
+14:25:42.677556 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55513: Flags [F.], seq 77, ack 1, win 126, options [nop,nop,TS val 942574874 ecr 915809731], length 0
+14:25:42.677576 IP 172.16.1.226.55513 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [F.], seq 1, ack 78, win 4096, options [nop,nop,TS val 915873970 ecr 942574874], length 0
+14:25:42.678821 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55513: Flags [F.], seq 77, ack 1, win 126, options [nop,nop,TS val 942574942 ecr 915809731], length 0
+14:25:42.678844 IP 172.16.1.226.55513 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [F.], seq 1, ack 78, win 4096, options [nop,nop,TS val 915873971 ecr 942574874], length 0
+14:25:42.691153 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55513: Flags [.], ack 2, win 126, options [nop,nop,TS val 942574992 ecr 915873969], length 0
+14:25:42.691573 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55513: Flags [.], ack 2, win 126, options [nop,nop,TS val 942574992 ecr 915873969], length 0
+14:25:42.692468 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55513: Flags [.], ack 2, win 126, options [nop,nop,TS val 942574992 ecr 915873969], length 0
+14:25:42.693694 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55513: Flags [.], ack 2, win 126, options [nop,nop,TS val 942574992 ecr 915873969], length 0
+14:25:42.694007 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55513: Flags [.], ack 2, win 126, options [nop,nop,TS val 942574992 ecr 915873970], length 0
+14:25:43.303244 IP edge-star-mini-shv-01-iad3.facebook.com.https > 172.16.1.226.55514: Flags [P.], seq 1676574045:1676574091, ack 2213252056, win 144, options [nop,nop,TS val 140842654 ecr 915811707], length 46
+14:25:43.303299 IP 172.16.1.226.55514 > edge-star-mini-shv-01-iad3.facebook.com.https: Flags [.], ack 46, win 4094, options [nop,nop,TS val 915874592 ecr 140842654], length 0
+14:25:43.303532 IP edge-star-mini-shv-01-iad3.facebook.com.https > 172.16.1.226.55514: Flags [P.], seq 46:77, ack 1, win 144, options [nop,nop,TS val 140842654 ecr 915811707], length 31
+14:25:43.303584 IP 172.16.1.226.55514 > edge-star-mini-shv-01-iad3.facebook.com.https: Flags [.], ack 77, win 4095, options [nop,nop,TS val 915874592 ecr 140842654], length 0
+14:25:43.303688 IP 172.16.1.226.55514 > edge-star-mini-shv-01-iad3.facebook.com.https: Flags [P.], seq 1:32, ack 77, win 4096, options [nop,nop,TS val 915874592 ecr 140842654], length 31
+14:25:43.303744 IP 172.16.1.226.55514 > edge-star-mini-shv-01-iad3.facebook.com.https: Flags [F.], seq 32, ack 77, win 4096, options [nop,nop,TS val 915874592 ecr 140842654], length 0
+14:25:43.304844 IP edge-star-mini-shv-01-iad3.facebook.com.https > 172.16.1.226.55514: Flags [F.], seq 77, ack 1, win 144, options [nop,nop,TS val 140842654 ecr 915811707], length 0
+14:25:43.304880 IP 172.16.1.226.55514 > edge-star-mini-shv-01-iad3.facebook.com.https: Flags [F.], seq 32, ack 78, win 4096, options [nop,nop,TS val 915874593 ecr 140842654], length 0
+14:25:43.337693 IP edge-star-mini-shv-01-iad3.facebook.com.https > 172.16.1.226.55514: Flags [R], seq 1676574123, win 0, length 0
+14:25:43.421544 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55518: Flags [P.], seq 3690492903:3690492949, ack 3477868319, win 202, options [nop,nop,TS val 3639895444 ecr 915811281], length 46
+14:25:43.421601 IP 172.16.1.226.55518 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [.], ack 46, win 4094, options [nop,nop,TS val 915874708 ecr 3639895444], length 0
+14:25:43.421942 IP 172.16.1.226.55518 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [F.], seq 1, ack 46, win 4096, options [nop,nop,TS val 915874708 ecr 3639895444], length 0
+14:25:43.422402 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55518: Flags [P.], seq 46:77, ack 1, win 202, options [nop,nop,TS val 3639895444 ecr 915811281], length 31
+14:25:43.422451 IP 172.16.1.226.55518 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [F.], seq 1, ack 77, win 4095, options [nop,nop,TS val 915874708 ecr 3639895444], length 0
+14:25:43.422672 IP 172.16.1.226.55518 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [F.], seq 1, ack 77, win 4096, options [nop,nop,TS val 915874709 ecr 3639895444], length 0
+14:25:43.422688 IP 172.16.1.226.55518 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [F.], seq 1, ack 77, win 4096, options [nop,nop,TS val 915874709 ecr 3639895444], length 0
+14:25:43.423651 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55518: Flags [F.], seq 77, ack 1, win 202, options [nop,nop,TS val 3639895444 ecr 915811281], length 0
+14:25:43.423689 IP 172.16.1.226.55518 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [F.], seq 1, ack 78, win 4096, options [nop,nop,TS val 915874710 ecr 3639895444], length 0
+14:25:43.434353 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55518: Flags [.], ack 2, win 202, options [nop,nop,TS val 3639895457 ecr 915874708], length 0
+14:25:43.435152 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55518: Flags [.], ack 2, win 202, options [nop,nop,TS val 3639895457 ecr 915874708], length 0
+14:25:43.440646 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55518: Flags [.], ack 2, win 202, options [nop,nop,TS val 3639895463 ecr 915874709], length 0
+14:25:43.440743 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55518: Flags [.], ack 2, win 202, options [nop,nop,TS val 3639895463 ecr 915874709], length 0
+14:25:43.721033 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [P.], seq 843656193:843656252, ack 1692316154, win 332, options [nop,nop,TS val 2970726695 ecr 915847699], length 59
+14:25:43.721091 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [.], ack 59, win 4094, options [nop,nop,TS val 915875005 ecr 2970726695], length 0
+14:25:43.722025 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [P.], seq 59:97, ack 1, win 332, options [nop,nop,TS val 2970726695 ecr 915847699], length 38
+14:25:43.722029 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [P.], seq 97:143, ack 1, win 332, options [nop,nop,TS val 2970726695 ecr 915847699], length 46
+14:25:43.722078 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [.], ack 97, win 4094, options [nop,nop,TS val 915875005 ecr 2970726695], length 0
+14:25:43.722100 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [.], ack 143, win 4093, options [nop,nop,TS val 915875006 ecr 2970726695], length 0
+14:25:43.722582 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [P.], seq 1:47, ack 143, win 4096, options [nop,nop,TS val 915875006 ecr 2970726695], length 46
+14:25:43.748396 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [.], ack 47, win 332, options [nop,nop,TS val 2970726761 ecr 915875006], length 0
+14:25:43.986660 IP 172.16.1.226.52033 > 172.16.1.1.domain: 19406+ PTR? 228.69.13.31.in-addr.arpa. (43)
+14:25:44.079366 IP 172.16.1.1.domain > 172.16.1.226.52033: 19406 1/6/6 PTR edge-star-mini-shv-01-iad3.facebook.com. (304)
+14:25:45.393278 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55517: Flags [P.], seq 1398016465:1398016511, ack 1819435205, win 123, options [nop,nop,TS val 1103151219 ecr 915811829], length 46
+14:25:45.393333 IP 172.16.1.226.55517 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [.], ack 46, win 4094, options [nop,nop,TS val 915876675 ecr 1103151219], length 0
+14:25:45.393778 IP 172.16.1.226.55517 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [F.], seq 1, ack 46, win 4096, options [nop,nop,TS val 915876675 ecr 1103151219], length 0
+14:25:45.395852 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55517: Flags [P.], seq 46:77, ack 1, win 123, options [nop,nop,TS val 1103151219 ecr 915811829], length 31
+14:25:45.395929 IP 172.16.1.226.55517 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [R], seq 1819435205, win 0, length 0
+14:25:45.398230 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55517: Flags [F.], seq 77, ack 1, win 123, options [nop,nop,TS val 1103151219 ecr 915811829], length 0
+14:25:45.398261 IP 172.16.1.226.55517 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [R], seq 1819435205, win 0, length 0
+14:25:45.398987 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55517: Flags [F.], seq 77, ack 1, win 123, options [nop,nop,TS val 1103151275 ecr 915811829], length 0
+14:25:45.399018 IP 172.16.1.226.55517 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [R], seq 1819435205, win 0, length 0
+14:25:45.418333 IP xx-fbcdn-shv-01-iad3.fbcdn.net.https > 172.16.1.226.55517: Flags [.], ack 2, win 123, options [nop,nop,TS val 1103151355 ecr 915876675], length 0
+14:25:45.418364 IP 172.16.1.226.55517 > xx-fbcdn-shv-01-iad3.fbcdn.net.https: Flags [R], seq 1819435206, win 0, length 0
+14:25:48.431314 IP 172.16.1.226.55552 > ec2-52-70-0-168.compute-1.amazonaws.com.https: Flags [F.], seq 1863437548, ack 1547971713, win 4102, options [nop,nop,TS val 915879707 ecr 276298854], length 0
+14:25:48.435467 IP 172.16.1.226.54999 > qs-in-f189.1e100.net.https: Flags [P.], seq 3856772070:3856772409, ack 440250325, win 4096, options [nop,nop,TS val 915879711 ecr 1931714318], length 339
+14:25:48.444072 IP ec2-52-70-0-168.compute-1.amazonaws.com.https > 172.16.1.226.55552: Flags [P.], seq 1:32, ack 1, win 126, options [nop,nop,TS val 276313336 ecr 915879707], length 31
+14:25:48.444110 IP 172.16.1.226.55552 > ec2-52-70-0-168.compute-1.amazonaws.com.https: Flags [R], seq 1863437549, win 0, length 0
+14:25:48.445042 IP ec2-52-70-0-168.compute-1.amazonaws.com.https > 172.16.1.226.55552: Flags [F.], seq 32, ack 1, win 126, options [nop,nop,TS val 276313336 ecr 915879707], length 0
+14:25:48.445052 IP 172.16.1.226.55552 > ec2-52-70-0-168.compute-1.amazonaws.com.https: Flags [R], seq 1863437549, win 0, length 0
+14:25:48.458063 IP qs-in-f189.1e100.net.https > 172.16.1.226.54999: Flags [.], ack 339, win 255, options [nop,nop,TS val 1931772188 ecr 915879711], length 0
+14:25:48.467150 IP qs-in-f189.1e100.net.https > 172.16.1.226.54999: Flags [P.], seq 1:237, ack 339, win 255, options [nop,nop,TS val 1931772198 ecr 915879711], length 236
+14:25:48.467179 IP 172.16.1.226.54999 > qs-in-f189.1e100.net.https: Flags [.], ack 237, win 4088, options [nop,nop,TS val 915879741 ecr 1931772198], length 0
+14:25:48.475428 IP qs-in-f189.1e100.net.https > 172.16.1.226.54999: Flags [P.], seq 237:474, ack 339, win 255, options [nop,nop,TS val 1931772207 ecr 915879711], length 237
+14:25:48.475462 IP 172.16.1.226.54999 > qs-in-f189.1e100.net.https: Flags [.], ack 474, win 4088, options [nop,nop,TS val 915879749 ecr 1931772207], length 0
+14:25:48.476413 IP qs-in-f189.1e100.net.https > 172.16.1.226.54999: Flags [P.], seq 474:529, ack 339, win 255, options [nop,nop,TS val 1931772207 ecr 915879711], length 55
+14:25:48.476439 IP 172.16.1.226.54999 > qs-in-f189.1e100.net.https: Flags [.], ack 529, win 4094, options [nop,nop,TS val 915879749 ecr 1931772207], length 0
+14:25:48.478497 IP qs-in-f189.1e100.net.https > 172.16.1.226.54999: Flags [P.], seq 529:575, ack 339, win 255, options [nop,nop,TS val 1931772207 ecr 915879711], length 46
+14:25:48.478589 IP 172.16.1.226.54999 > qs-in-f189.1e100.net.https: Flags [.], ack 575, win 4094, options [nop,nop,TS val 915879752 ecr 1931772207], length 0
+14:25:48.479683 IP 172.16.1.226.54999 > qs-in-f189.1e100.net.https: Flags [P.], seq 339:385, ack 575, win 4096, options [nop,nop,TS val 915879753 ecr 1931772207], length 46
+14:25:48.493532 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [P.], seq 47:971, ack 143, win 4096, options [nop,nop,TS val 915879766 ecr 2970726761], length 924
+14:25:48.514305 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [.], ack 971, win 341, options [nop,nop,TS val 2970731528 ecr 915879766], length 0
+14:25:48.539018 IP qs-in-f189.1e100.net.https > 172.16.1.226.54999: Flags [.], ack 385, win 255, options [nop,nop,TS val 1931772231 ecr 915879753], length 0
+14:25:48.555028 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [P.], seq 143:356, ack 971, win 341, options [nop,nop,TS val 2970731568 ecr 915879766], length 213
+14:25:48.555075 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [.], ack 356, win 4089, options [nop,nop,TS val 915879826 ecr 2970731568], length 0
+14:25:48.555898 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [P.], seq 356:415, ack 971, win 341, options [nop,nop,TS val 2970731569 ecr 915879766], length 59
+14:25:48.555942 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [.], ack 415, win 4094, options [nop,nop,TS val 915879826 ecr 2970731569], length 0
+14:25:49.087844 IP 172.16.1.226.61732 > 172.16.1.1.domain: 22492+ PTR? 168.0.70.52.in-addr.arpa. (42)
+14:25:49.181623 IP 172.16.1.1.domain > 172.16.1.226.61732: 22492 1/6/6 PTR ec2-52-70-0-168.compute-1.amazonaws.com. (303)
+14:25:52.286089 IP 54.239.31.104.https > 172.16.1.226.55494: Flags [R.], seq 32913236, ack 603641258, win 9300, length 0
+14:25:53.188275 IP 172.16.1.226.53829 > 172.16.1.1.domain: 41286+ PTR? 104.31.239.54.in-addr.arpa. (44)
+14:25:53.330527 IP 172.16.1.1.domain > 172.16.1.226.53829: 41286 NXDomain 0/0/0 (44)
+14:25:54.118718 IP 172.16.1.226.60708 > 172.16.1.1.domain: 33307+ A? api.run.pivotal.io. (36)
+14:25:54.118884 IP 172.16.1.226.61437 > 172.16.1.1.domain: 41680+ AAAA? api.run.pivotal.io. (36)
+14:25:54.176209 IP 172.16.1.1.domain > 172.16.1.226.60708: 33307 2/6/6 A 54.157.92.245, A 52.45.222.188 (276)
+14:25:55.119288 IP 172.16.1.226.61437 > 172.16.1.1.domain: 41680+ AAAA? api.run.pivotal.io. (36)
+14:25:56.300575 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [S], seq 566185248, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 915887564 ecr 0,sackOK,eol], length 0
+14:25:56.314550 IP ec2-54-157-92-245.compute-1.amazonaws.com.https > 172.16.1.226.55556: Flags [S.], seq 1021796205, ack 566185249, win 28960, options [mss 1460,sackOK,TS val 103700945 ecr 915887564,nop,wscale 8], length 0
+14:25:56.314604 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 915887578 ecr 103700945], length 0
+14:25:56.315732 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [P.], seq 1:166, ack 1, win 4117, options [nop,nop,TS val 915887579 ecr 103700945], length 165
+14:25:56.331229 IP ec2-54-157-92-245.compute-1.amazonaws.com.https > 172.16.1.226.55556: Flags [.], ack 166, win 118, options [nop,nop,TS val 103700949 ecr 915887579], length 0
+14:25:56.334317 IP ec2-54-157-92-245.compute-1.amazonaws.com.https > 172.16.1.226.55556: Flags [.], seq 1:1449, ack 166, win 118, options [nop,nop,TS val 103700950 ecr 915887579], length 1448
+14:25:56.334960 IP 172.16.1.226.56798 > 172.16.1.1.domain: 19364+ PTR? 245.92.157.54.in-addr.arpa. (44)
+14:25:56.335344 IP ec2-54-157-92-245.compute-1.amazonaws.com.https > 172.16.1.226.55556: Flags [.], seq 1449:2897, ack 166, win 118, options [nop,nop,TS val 103700950 ecr 915887579], length 1448
+14:25:56.335386 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [.], ack 2897, win 4050, options [nop,nop,TS val 915887597 ecr 103700950], length 0
+14:25:56.336673 IP ec2-54-157-92-245.compute-1.amazonaws.com.https > 172.16.1.226.55556: Flags [P.], seq 2897:3660, ack 166, win 118, options [nop,nop,TS val 103700950 ecr 915887579], length 763
+14:25:56.336715 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [.], ack 3660, win 4072, options [nop,nop,TS val 915887598 ecr 103700950], length 0
+14:25:56.415743 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [P.], seq 166:292, ack 3660, win 4096, options [nop,nop,TS val 915887676 ecr 103700950], length 126
+14:25:56.430321 IP 172.16.1.1.domain > 172.16.1.226.56798: 19364 1/6/6 PTR ec2-54-157-92-245.compute-1.amazonaws.com. (307)
+14:25:56.430981 IP ec2-54-157-92-245.compute-1.amazonaws.com.https > 172.16.1.226.55556: Flags [P.], seq 3660:3711, ack 292, win 118, options [nop,nop,TS val 103700974 ecr 915887676], length 51
+14:25:56.431015 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [.], ack 3711, win 4094, options [nop,nop,TS val 915887691 ecr 103700974], length 0
+14:25:56.431320 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [P.], seq 292:529, ack 3711, win 4096, options [nop,nop,TS val 915887691 ecr 103700974], length 237
+14:25:56.477362 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [P.], seq 292:529, ack 3711, win 4096, options [nop,nop,TS val 915887736 ecr 103700974], length 237
+14:25:56.479390 IP ec2-54-157-92-245.compute-1.amazonaws.com.https > 172.16.1.226.55556: Flags [P.], seq 3711:4624, ack 529, win 122, options [nop,nop,TS val 103700986 ecr 915887691], length 913
+14:25:56.479446 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [.], ack 4624, win 4067, options [nop,nop,TS val 915887738 ecr 103700986], length 0
+14:25:56.479737 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [P.], seq 529:560, ack 4624, win 4096, options [nop,nop,TS val 915887738 ecr 103700986], length 31
+14:25:56.479789 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [F.], seq 560, ack 4624, win 4096, options [nop,nop,TS val 915887738 ecr 103700986], length 0
+14:25:56.480218 IP ec2-54-157-92-245.compute-1.amazonaws.com.https > 172.16.1.226.55556: Flags [P.], seq 4624:4655, ack 529, win 122, options [nop,nop,TS val 103700986 ecr 915887691], length 31
+14:25:56.480289 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [R], seq 566185777, win 0, length 0
+14:25:56.488761 IP 172.16.1.226.60912 > 172.16.1.1.domain: 31140+ A? login.run.pivotal.io. (38)
+14:25:56.489242 IP 172.16.1.226.65417 > 172.16.1.1.domain: 17353+ AAAA? login.run.pivotal.io. (38)
+14:25:56.495257 IP ec2-54-157-92-245.compute-1.amazonaws.com.https > 172.16.1.226.55556: Flags [.], ack 529, win 122, options [nop,nop,TS val 103700990 ecr 915887736,nop,nop,sack 1 {292:529}], length 0
+14:25:56.495287 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [R], seq 566185777, win 0, length 0
+14:25:56.496293 IP ec2-54-157-92-245.compute-1.amazonaws.com.https > 172.16.1.226.55556: Flags [.], ack 560, win 122, options [nop,nop,TS val 103700990 ecr 915887738], length 0
+14:25:56.496325 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [R], seq 566185808, win 0, length 0
+14:25:56.496793 IP ec2-54-157-92-245.compute-1.amazonaws.com.https > 172.16.1.226.55556: Flags [F.], seq 4655, ack 561, win 122, options [nop,nop,TS val 103700990 ecr 915887738], length 0
+14:25:56.496824 IP 172.16.1.226.55556 > ec2-54-157-92-245.compute-1.amazonaws.com.https: Flags [R], seq 566185809, win 0, length 0
+14:25:56.595947 IP 172.16.1.1.domain > 172.16.1.226.60912: 31140 2/6/6 A 52.45.222.188, A 54.157.92.245 (278)
+14:25:57.491915 IP 172.16.1.226.65417 > 172.16.1.1.domain: 17353+ AAAA? login.run.pivotal.io. (38)
+14:25:58.818936 IP 172.16.1.226.55557 > ec2-52-45-222-188.compute-1.amazonaws.com.https: Flags [S], seq 2868284400, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 915890072 ecr 0,sackOK,eol], length 0
+14:25:58.834798 IP ec2-52-45-222-188.compute-1.amazonaws.com.https > 172.16.1.226.55557: Flags [S.], seq 2514469295, ack 2868284401, win 28960, options [mss 1460,sackOK,TS val 179883082 ecr 915890072,nop,wscale 8], length 0
+14:25:58.834859 IP 172.16.1.226.55557 > ec2-52-45-222-188.compute-1.amazonaws.com.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 915890088 ecr 179883082], length 0
+14:25:58.835160 IP 172.16.1.226.55557 > ec2-52-45-222-188.compute-1.amazonaws.com.https: Flags [P.], seq 1:168, ack 1, win 4117, options [nop,nop,TS val 915890088 ecr 179883082], length 167
+14:25:58.853578 IP ec2-52-45-222-188.compute-1.amazonaws.com.https > 172.16.1.226.55557: Flags [.], ack 168, win 118, options [nop,nop,TS val 179883086 ecr 915890088], length 0
+14:25:58.855456 IP ec2-52-45-222-188.compute-1.amazonaws.com.https > 172.16.1.226.55557: Flags [.], seq 1:1449, ack 168, win 118, options [nop,nop,TS val 179883087 ecr 915890088], length 1448
+14:25:58.857904 IP ec2-52-45-222-188.compute-1.amazonaws.com.https > 172.16.1.226.55557: Flags [.], seq 1449:2897, ack 168, win 118, options [nop,nop,TS val 179883087 ecr 915890088], length 1448
+14:25:58.857945 IP 172.16.1.226.55557 > ec2-52-45-222-188.compute-1.amazonaws.com.https: Flags [.], ack 2897, win 4050, options [nop,nop,TS val 915890109 ecr 179883087], length 0
+14:25:58.859936 IP ec2-52-45-222-188.compute-1.amazonaws.com.https > 172.16.1.226.55557: Flags [P.], seq 2897:3660, ack 168, win 118, options [nop,nop,TS val 179883087 ecr 915890088], length 763
+14:25:58.859977 IP 172.16.1.226.55557 > ec2-52-45-222-188.compute-1.amazonaws.com.https: Flags [.], ack 3660, win 4072, options [nop,nop,TS val 915890111 ecr 179883087], length 0
+14:25:58.861657 IP 172.16.1.226.55557 > ec2-52-45-222-188.compute-1.amazonaws.com.https: Flags [P.], seq 168:294, ack 3660, win 4096, options [nop,nop,TS val 915890112 ecr 179883087], length 126
+14:25:58.883391 IP ec2-52-45-222-188.compute-1.amazonaws.com.https > 172.16.1.226.55557: Flags [.], ack 294, win 118, options [nop,nop,TS val 179883093 ecr 915890112], length 0
+14:25:58.885067 IP ec2-52-45-222-188.compute-1.amazonaws.com.https > 172.16.1.226.55557: Flags [P.], seq 3660:3711, ack 294, win 118, options [nop,nop,TS val 179883094 ecr 915890112], length 51
+14:25:58.885113 IP 172.16.1.226.55557 > ec2-52-45-222-188.compute-1.amazonaws.com.https: Flags [.], ack 3711, win 4094, options [nop,nop,TS val 915890134 ecr 179883094], length 0
+14:25:58.885492 IP 172.16.1.226.55557 > ec2-52-45-222-188.compute-1.amazonaws.com.https: Flags [P.], seq 294:531, ack 3711, win 4096, options [nop,nop,TS val 915890134 ecr 179883094], length 237
+14:25:58.940532 IP ec2-52-45-222-188.compute-1.amazonaws.com.https > 172.16.1.226.55557: Flags [P.], seq 3711:4784, ack 531, win 122, options [nop,nop,TS val 179883108 ecr 915890134], length 1073
+14:25:58.940579 IP 172.16.1.226.55557 > ec2-52-45-222-188.compute-1.amazonaws.com.https: Flags [.], ack 4784, win 4062, options [nop,nop,TS val 915890189 ecr 179883108], length 0
+14:25:58.940832 IP 172.16.1.226.55557 > ec2-52-45-222-188.compute-1.amazonaws.com.https: Flags [P.], seq 531:562, ack 4784, win 4096, options [nop,nop,TS val 915890189 ecr 179883108], length 31
+14:25:58.940889 IP 172.16.1.226.55557 > ec2-52-45-222-188.compute-1.amazonaws.com.https: Flags [F.], seq 562, ack 4784, win 4096, options [nop,nop,TS val 915890189 ecr 179883108], length 0
+14:25:58.940934 IP ec2-52-45-222-188.compute-1.amazonaws.com.https > 172.16.1.226.55557: Flags [P.], seq 4784:4815, ack 531, win 122, options [nop,nop,TS val 179883108 ecr 915890134], length 31
+14:25:58.941039 IP 172.16.1.226.55557 > ec2-52-45-222-188.compute-1.amazonaws.com.https: Flags [R], seq 2868284931, win 0, length 0
+14:25:58.956207 IP ec2-52-45-222-188.compute-1.amazonaws.com.https > 172.16.1.226.55557: Flags [F.], seq 4815, ack 562, win 122, options [nop,nop,TS val 179883112 ecr 915890189], length 0
+14:25:58.956238 IP 172.16.1.226.55557 > ec2-52-45-222-188.compute-1.amazonaws.com.https: Flags [R], seq 2868284962, win 0, length 0
+14:25:58.984962 IP ec2-52-45-222-188.compute-1.amazonaws.com.https > 172.16.1.226.55557: Flags [.], ack 563, win 122, options [nop,nop,TS val 179883119 ecr 915890189], length 0
+14:25:58.984984 IP 172.16.1.226.55557 > ec2-52-45-222-188.compute-1.amazonaws.com.https: Flags [R], seq 2868284963, win 0, length 0
+14:25:59.435181 IP 172.16.1.226.57163 > 172.16.1.1.domain: 56132+ PTR? 188.222.45.52.in-addr.arpa. (44)
+14:25:59.454400 IP 172.16.1.1.domain > 172.16.1.226.57163: 56132 1/6/6 PTR ec2-52-45-222-188.compute-1.amazonaws.com. (307)
+14:26:04.193502 IP 172.16.1.1.64872 > 172.16.1.226.61437: UDP, length 36
+14:26:04.193532 IP 172.16.1.226 > 172.16.1.1: ICMP 172.16.1.226 udp port 61437 unreachable, length 36
+14:26:06.596802 IP 172.16.1.1.domain > 172.16.1.226.65417: 17353 ServFail 0/0/0 (38)
+14:26:06.596830 IP 172.16.1.226 > 172.16.1.1: ICMP 172.16.1.226 udp port 65417 unreachable, length 36
+14:26:10.353861 IP 172.16.1.226.52943 > 172.16.1.1.domain: 21599+ A? docs.google.com. (33)
+14:26:10.445955 IP 172.16.1.1.domain > 172.16.1.226.52943: 21599 1/4/4 A 216.58.194.206 (185)
+14:26:10.447147 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [S], seq 1265639297, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 915901688 ecr 0,sackOK,eol], length 0
+14:26:10.469096 IP 172.16.1.226.50867 > 172.16.1.1.domain: 62318+ PTR? 206.194.58.216.in-addr.arpa. (45)
+14:26:10.493390 IP 172.16.1.1.domain > 172.16.1.226.50867: 62318 2/6/5 PTR sfo03s01-in-f14.1e100.net., PTR sfo03s01-in-f206.1e100.net. (312)
+14:26:10.529176 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [S.], seq 3205223442, ack 1265639298, win 42408, options [mss 1380,sackOK,TS val 3246412252 ecr 915901688,nop,wscale 8], length 0
+14:26:10.529260 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 1, win 4104, options [nop,nop,TS val 915901770 ecr 3246412252], length 0
+14:26:10.530213 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 1:258, ack 1, win 4104, options [nop,nop,TS val 915901770 ecr 3246412252], length 257
+14:26:10.615612 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [.], ack 258, win 170, options [nop,nop,TS val 3246412339 ecr 915901770], length 0
+14:26:10.634263 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [.], seq 1:1419, ack 258, win 170, options [nop,nop,TS val 3246412357 ecr 915901770], length 1418
+14:26:10.635289 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [.], seq 1419:2837, ack 258, win 170, options [nop,nop,TS val 3246412357 ecr 915901770], length 1418
+14:26:10.635338 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 2837, win 4051, options [nop,nop,TS val 915901875 ecr 3246412357], length 0
+14:26:10.635633 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [P.], seq 2837:3591, ack 258, win 170, options [nop,nop,TS val 3246412357 ecr 915901770], length 754
+14:26:10.635672 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 3591, win 4072, options [nop,nop,TS val 915901875 ecr 3246412357], length 0
+14:26:10.660880 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 258:333, ack 3591, win 4096, options [nop,nop,TS val 915901900 ecr 3246412357], length 75
+14:26:10.660894 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 333:339, ack 3591, win 4096, options [nop,nop,TS val 915901900 ecr 3246412357], length 6
+14:26:10.660903 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 339:384, ack 3591, win 4096, options [nop,nop,TS val 915901900 ecr 3246412357], length 45
+14:26:10.747784 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [.], ack 384, win 170, options [nop,nop,TS val 3246412471 ecr 915901900], length 0
+14:26:10.748547 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [P.], seq 3591:3642, ack 384, win 170, options [nop,nop,TS val 3246412471 ecr 915901900], length 51
+14:26:10.748596 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 3642, win 4094, options [nop,nop,TS val 915901986 ecr 3246412471], length 0
+14:26:10.748901 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [P.], seq 3642:3711, ack 384, win 170, options [nop,nop,TS val 3246412471 ecr 915901900], length 69
+14:26:10.748942 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 3711, win 4093, options [nop,nop,TS val 915901987 ecr 3246412471], length 0
+14:26:10.751591 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 384:437, ack 3711, win 4096, options [nop,nop,TS val 915901989 ecr 3246412471], length 53
+14:26:10.751684 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 437:487, ack 3711, win 4096, options [nop,nop,TS val 915901989 ecr 3246412471], length 50
+14:26:10.751865 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 487:529, ack 3711, win 4096, options [nop,nop,TS val 915901989 ecr 3246412471], length 42
+14:26:10.751958 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 529:1636, ack 3711, win 4096, options [nop,nop,TS val 915901989 ecr 3246412471], length 1107
+14:26:10.752041 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [.], seq 1636:3004, ack 3711, win 4096, options [nop,nop,TS val 915901989 ecr 3246412471], length 1368
+14:26:10.752065 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [.], seq 3004:4372, ack 3711, win 4096, options [nop,nop,TS val 915901989 ecr 3246412471], length 1368
+14:26:10.752075 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 4372:4625, ack 3711, win 4096, options [nop,nop,TS val 915901989 ecr 3246412471], length 253
+14:26:10.752240 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 4625:4663, ack 3711, win 4096, options [nop,nop,TS val 915901989 ecr 3246412471], length 38
+14:26:10.835699 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [.], ack 529, win 170, options [nop,nop,TS val 3246412559 ecr 915901989], length 0
+14:26:10.835702 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [.], ack 529, win 181, options [nop,nop,TS val 3246412559 ecr 915901989,nop,nop,sack 1 {1636:3004}], length 0
+14:26:10.835704 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [P.], seq 3711:3749, ack 529, win 181, options [nop,nop,TS val 3246412559 ecr 915901989,nop,nop,sack 1 {1636:3004}], length 38
+14:26:10.835767 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 3749, win 4094, options [nop,nop,TS val 915902073 ecr 3246412559], length 0
+14:26:10.836621 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [.], ack 529, win 192, options [nop,nop,TS val 3246412559 ecr 915901989,nop,nop,sack 1 {1636:4372}], length 0
+14:26:10.836664 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [.], seq 529:1636, ack 3749, win 4096, options [nop,nop,TS val 915902073 ecr 3246412559], length 1107
+14:26:10.836679 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 4402:4663, ack 3749, win 4096, options [nop,nop,TS val 915902073 ecr 3246412559], length 261
+14:26:10.859213 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [.], ack 529, win 196, options [nop,nop,TS val 3246412583 ecr 915901989,nop,nop,sack 1 {1636:4625}], length 0
+14:26:10.864185 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [.], ack 529, win 200, options [nop,nop,TS val 3246412587 ecr 915901989,nop,nop,sack 1 {1636:4663}], length 0
+14:26:10.922625 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [.], ack 4663, win 209, options [nop,nop,TS val 3246412646 ecr 915902073], length 0
+14:26:11.089024 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [P.], seq 3749:4144, ack 4663, win 209, options [nop,nop,TS val 3246412764 ecr 915902073], length 395
+14:26:11.089028 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [P.], seq 4144:4182, ack 4663, win 209, options [nop,nop,TS val 3246412768 ecr 915902073], length 38
+14:26:11.089077 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 4144, win 4083, options [nop,nop,TS val 915902322 ecr 3246412764], length 0
+14:26:11.089098 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 4182, win 4082, options [nop,nop,TS val 915902322 ecr 3246412768], length 0
+14:26:11.090248 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [P.], seq 4182:4228, ack 4663, win 209, options [nop,nop,TS val 3246412768 ecr 915902073], length 46
+14:26:11.090300 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 4228, win 4094, options [nop,nop,TS val 915902323 ecr 3246412768], length 0
+14:26:11.090555 IP 172.16.1.226.55558 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 4663:4709, ack 4228, win 4096, options [nop,nop,TS val 915902323 ecr 3246412768], length 46
+14:26:11.174868 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55558: Flags [.], ack 4709, win 209, options [nop,nop,TS val 3246412897 ecr 915902323], length 0
+14:26:17.869938 IP 172.16.1.226.63480 > 172.16.1.1.domain: 54480+ AAAA? login.run.pivotal.io. (38)
+14:26:18.085517 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [P.], seq 415:474, ack 971, win 341, options [nop,nop,TS val 2970761050 ecr 915879826], length 59
+14:26:18.085577 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [.], ack 474, win 4094, options [nop,nop,TS val 915909313 ecr 2970761050], length 0
+14:26:18.872730 IP 172.16.1.226.63480 > 172.16.1.1.domain: 54480+ AAAA? login.run.pivotal.io. (38)
+14:26:20.876015 IP 172.16.1.226.63480 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain: 54480+ AAAA? login.run.pivotal.io. (38)
+14:26:21.508070 IP 172.16.1.226.65218 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain: 36789+ PTR? 228.198.18.50.in-addr.arpa. (44)
+14:26:21.597895 IP ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain > 172.16.1.226.65218: 36789 1/6/6 PTR ec2-50-18-198-228.us-west-1.compute.amazonaws.com. (315)
+14:26:21.876995 IP 172.16.1.226.63480 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain: 54480+ AAAA? login.run.pivotal.io. (38)
+14:26:22.470111 IP 172.16.1.226.54937 > 17.249.124.73.5223: Flags [P.], seq 2490196332:2490196433, ack 1527938736, win 4096, options [nop,nop,TS val 915913696 ecr 332185881], length 101
+14:26:22.499853 IP 17.249.124.73.5223 > 172.16.1.226.54937: Flags [P.], seq 1:54, ack 101, win 337, options [nop,nop,TS val 333082321 ecr 915913696], length 53
+14:26:22.499911 IP 172.16.1.226.54937 > 17.249.124.73.5223: Flags [.], ack 54, win 4094, options [nop,nop,TS val 915913725 ecr 333082321], length 0
+14:26:22.600569 IP 172.16.1.226.50392 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain: 32346+ PTR? 73.124.249.17.in-addr.arpa. (44)
+14:26:22.615992 IP ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain > 172.16.1.226.50392: 32346 NXDomain 0/0/0 (44)
+14:26:22.874330 IP 172.16.1.226.63480 > ec2-54-174-115-90.compute-1.amazonaws.com.domain: 54480+ AAAA? login.run.pivotal.io. (38)
+14:26:23.500996 IP 172.16.1.226.54938 > 17.188.166.18.5223: Flags [P.], seq 3909487433:3909487534, ack 4204691999, win 4096, options [nop,nop,TS val 915914722 ecr 434864891], length 101
+14:26:23.537501 IP 17.188.166.18.5223 > 172.16.1.226.54938: Flags [P.], seq 1:54, ack 101, win 264, options [nop,nop,TS val 435762364 ecr 915914722], length 53
+14:26:23.537558 IP 172.16.1.226.54938 > 17.188.166.18.5223: Flags [.], ack 54, win 4094, options [nop,nop,TS val 915914757 ecr 435762364], length 0
+14:26:23.617839 IP 172.16.1.226.53487 > ec2-54-174-115-90.compute-1.amazonaws.com.domain: 60496+ PTR? 90.115.174.54.in-addr.arpa. (44)
+14:26:23.634751 IP ec2-54-174-115-90.compute-1.amazonaws.com.domain > 172.16.1.226.53487: 60496 1/6/6 PTR ec2-54-174-115-90.compute-1.amazonaws.com. (307)
+14:26:23.636058 IP 172.16.1.226.55469 > ec2-54-174-115-90.compute-1.amazonaws.com.domain: 63925+ PTR? 18.166.188.17.in-addr.arpa. (44)
+14:26:23.651443 IP ec2-54-174-115-90.compute-1.amazonaws.com.domain > 172.16.1.226.55469: 63925 NXDomain 0/0/0 (44)
+14:26:23.874697 IP 172.16.1.226.63480 > ec2-54-174-115-90.compute-1.amazonaws.com.domain: 54480+ AAAA? login.run.pivotal.io. (38)
+14:26:25.876635 IP 172.16.1.226.63480 > 172.16.1.1.domain: 54480+ AAAA? login.run.pivotal.io. (38)
+14:26:27.880075 IP 172.16.1.226.56860 > 172.16.1.1.domain: 39056+ AAAA? login.run.pivotal.io. (38)
+14:26:27.883124 IP 172.16.1.1.domain > 172.16.1.226.63480: 54480 ServFail 0/0/0 (38)
+14:26:27.883161 IP 172.16.1.226 > 172.16.1.1: ICMP 172.16.1.226 udp port 63480 unreachable, length 36
+14:26:27.885786 IP ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain > 172.16.1.226.63480: 54480 ServFail 0/0/0 (38)
+14:26:27.885825 IP 172.16.1.226 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com: ICMP 172.16.1.226 udp port 63480 unreachable, length 36
+14:26:27.889271 IP ec2-54-174-115-90.compute-1.amazonaws.com.domain > 172.16.1.226.63480: 54480 ServFail 0/0/0 (38)
+14:26:27.889305 IP 172.16.1.226 > ec2-54-174-115-90.compute-1.amazonaws.com: ICMP 172.16.1.226 udp port 63480 unreachable, length 36
+14:26:28.879917 IP 172.16.1.226.56860 > 172.16.1.1.domain: 39056+ AAAA? login.run.pivotal.io. (38)
+14:26:30.828152 IP a23-46-57-32.deploy.static.akamaitechnologies.com.https > 172.16.1.226.55520: Flags [P.], seq 1234398391:1234398422, ack 2237637682, win 1006, options [nop,nop,TS val 276379828 ecr 915803080], length 31
+14:26:30.828210 IP 172.16.1.226.55520 > a23-46-57-32.deploy.static.akamaitechnologies.com.https: Flags [.], ack 31, win 4095, options [nop,nop,TS val 915922042 ecr 276379828], length 0
+14:26:30.828340 IP 172.16.1.226.55520 > a23-46-57-32.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 1:32, ack 31, win 4096, options [nop,nop,TS val 915922042 ecr 276379828], length 31
+14:26:30.829897 IP a23-46-57-32.deploy.static.akamaitechnologies.com.https > 172.16.1.226.55520: Flags [F.], seq 31, ack 1, win 1006, options [nop,nop,TS val 276379828 ecr 915803080], length 0
+14:26:30.829947 IP 172.16.1.226.55520 > a23-46-57-32.deploy.static.akamaitechnologies.com.https: Flags [.], ack 32, win 4096, options [nop,nop,TS val 915922043 ecr 276379828], length 0
+14:26:30.830336 IP 172.16.1.226.55520 > a23-46-57-32.deploy.static.akamaitechnologies.com.https: Flags [F.], seq 32, ack 32, win 4096, options [nop,nop,TS val 915922043 ecr 276379828], length 0
+14:26:30.847900 IP a23-46-57-32.deploy.static.akamaitechnologies.com.https > 172.16.1.226.55520: Flags [R], seq 1234398423, win 0, length 0
+14:26:30.848451 IP a23-46-57-32.deploy.static.akamaitechnologies.com.https > 172.16.1.226.55520: Flags [R], seq 1234398423, win 0, length 0
+14:26:30.884864 IP 172.16.1.226.56860 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain: 39056+ AAAA? login.run.pivotal.io. (38)
+14:26:31.558203 f4:0f:1b:3f:3b:80 (oui Unknown) > Broadcast SNAP, oui Unknown (0x004096), pid Unknown (0x0000), length 282: 
+	0x0000:  aaaa 0300 4096 0000 011a 3381 ffff ffff  ....@.....3.....
+	0x0010:  ffff f40f 1b3f 3b80 2811 f40f 1b3f 3b80  .....?;.(....?;.
+	0x0020:  0100 0601 06b5 0202 03bf 0528 11f4 0f1b  ...........(....
+	0x0030:  68a6 7001 0007 0106 b502 0203 bf05 2811  h.p...........(.
+	0x0040:  f40f 1b6a c460 0100 0701 06b5 0202 03bf  ...j.`..........
+	0x0050:  0528 11f4 0f1b 6947 7006 0007 0106 b502  .(....iGp.......
+	0x0060:  0203 bf05 2811 f40f 1b60 2080 0600 0701  ....(....`......
+	0x0070:  06b5 0202 03bf 0528 11f4 0f1b 5bd7 8006  .......(....[...
+	0x0080:  0007 0106 b502 0203 bf05 2811 f40f 1b68  ..........(....h
+	0x0090:  97c0 0100 0701 06b5 0808 03bf 0528 11f4  .............(..
+	0x00a0:  0f1b 3f3b 8f34 0104 0106 b50e 0e03 bf05  ..?;.4..........
+	0x00b0:  2811 f40f 1b6a c46f 2801 0701 06b5 0c0c  (....j.o(.......
+	0x00c0:  03bf 0528 11f4 0f1b 601d 0f9d 0107 0106  ...(....`.......
+	0x00d0:  b50b 0b03 bf05 2811 f40f 1b5b d78f 4001  ......(....[..@.
+	0x00e0:  0701 06b5 0b0b 03bf 0528 11f4 0f1b 6947  .........(....iG
+	0x00f0:  7f2c 0107 0106 b509 0903 bf05 2811 f40f  .,..........(...
+	0x0100:  1b60 208f 3c01 0701 06b5 0e0e 03bf 0528  .`..<..........(
+	0x0110:  11f4 0f1b 018a cfa1 0107 0106 b50e 0e03  ................
+	0x0120:  bf05                                     ..
+14:26:31.558367 f4:0f:1b:3f:3b:80 (oui Unknown) > Broadcast SNAP, oui Unknown (0x004096), pid Unknown (0x0000), length 282: 
+	0x0000:  aaaa 0300 4096 0000 011a 3381 ffff ffff  ....@.....3.....
+	0x0010:  ffff f40f 1b3f 3b80 2811 f40f 1b3f 3b8f  .....?;.(....?;.
+	0x0020:  3401 0401 06b5 0e0e 03bf 0528 11f4 0f1b  4..........(....
+	0x0030:  6ac4 6f28 0107 0106 b50c 0c03 bf05 2811  j.o(..........(.
+	0x0040:  f40f 1b60 1d0f 9d01 0701 06b5 0b0b 03bf  ...`............
+	0x0050:  0528 11f4 0f1b 5bd7 8f40 0107 0106 b50b  .(....[..@......
+	0x0060:  0b03 bf05 2811 f40f 1b69 477f 2c01 0701  ....(....iG.,...
+	0x0070:  06b5 0909 03bf 0528 11f4 0f1b 6020 8f3c  .......(....`..<
+	0x0080:  0107 0106 b50e 0e03 bf05 2811 f40f 1b01  ..........(.....
+	0x0090:  8acf a101 0701 06b5 0e0e 03bf 0528 11f4  .............(..
+	0x00a0:  0f1b 3f3b 8001 0006 0106 b502 0203 bf05  ..?;............
+	0x00b0:  2811 f40f 1b68 a670 0100 0701 06b5 0202  (....h.p........
+	0x00c0:  03bf 0528 11f4 0f1b 6ac4 6001 0007 0106  ...(....j.`.....
+	0x00d0:  b502 0203 bf05 2811 f40f 1b69 4770 0600  ......(....iGp..
+	0x00e0:  0701 06b5 0202 03bf 0528 11f4 0f1b 6020  .........(....`.
+	0x00f0:  8006 0007 0106 b502 0203 bf05 2811 f40f  ............(...
+	0x0100:  1b5b d780 0600 0701 06b5 0202 03bf 0528  .[.............(
+	0x0110:  11f4 0f1b 6897 c001 0007 0106 b508 0803  ....h...........
+	0x0120:  bf05                                     ..
+14:26:31.889329 IP 172.16.1.226.56860 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain: 39056+ AAAA? login.run.pivotal.io. (38)
+14:26:33.543911 IP a23-46-57-32.deploy.static.akamaitechnologies.com.https > 172.16.1.226.55503: Flags [P.], seq 3764070767:3764070798, ack 2473910516, win 1006, options [nop,nop,TS val 4185293491 ecr 915805960], length 31
+14:26:33.543965 IP 172.16.1.226.55503 > a23-46-57-32.deploy.static.akamaitechnologies.com.https: Flags [.], ack 31, win 4095, options [nop,nop,TS val 915924750 ecr 4185293491], length 0
+14:26:33.544091 IP 172.16.1.226.55503 > a23-46-57-32.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 1:32, ack 31, win 4096, options [nop,nop,TS val 915924750 ecr 4185293491], length 31
+14:26:33.544297 IP a23-46-57-32.deploy.static.akamaitechnologies.com.https > 172.16.1.226.55503: Flags [F.], seq 31, ack 1, win 1006, options [nop,nop,TS val 4185293491 ecr 915805960], length 0
+14:26:33.544329 IP 172.16.1.226.55503 > a23-46-57-32.deploy.static.akamaitechnologies.com.https: Flags [.], ack 32, win 4096, options [nop,nop,TS val 915924750 ecr 4185293491], length 0
+14:26:33.544561 IP 172.16.1.226.55503 > a23-46-57-32.deploy.static.akamaitechnologies.com.https: Flags [F.], seq 32, ack 32, win 4096, options [nop,nop,TS val 915924750 ecr 4185293491], length 0
+14:26:33.544890 IP a23-46-57-32.deploy.static.akamaitechnologies.com.https > 172.16.1.226.55503: Flags [F.], seq 31, ack 1, win 1006, options [nop,nop,TS val 4185293563 ecr 915805960], length 0
+14:26:33.544939 IP 172.16.1.226.55503 > a23-46-57-32.deploy.static.akamaitechnologies.com.https: Flags [F.], seq 32, ack 32, win 4096, options [nop,nop,TS val 915924750 ecr 4185293491], length 0
+14:26:33.562563 IP a23-46-57-32.deploy.static.akamaitechnologies.com.https > 172.16.1.226.55503: Flags [R], seq 3764070799, win 0, length 0
+14:26:33.563134 IP a23-46-57-32.deploy.static.akamaitechnologies.com.https > 172.16.1.226.55503: Flags [R], seq 3764070799, win 0, length 0
+14:26:33.563420 IP a23-46-57-32.deploy.static.akamaitechnologies.com.https > 172.16.1.226.55503: Flags [R], seq 3764070799, win 0, length 0
+14:26:37.931185 IP 172.16.1.1.domain > 172.16.1.226.56860: 39056 ServFail 0/0/0 (38)
+14:26:37.931216 IP 172.16.1.226 > 172.16.1.1: ICMP 172.16.1.226 udp port 56860 unreachable, length 36
+14:26:37.931510 IP ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain > 172.16.1.226.56860: 39056 ServFail 0/0/0 (38)
+14:26:37.931542 IP 172.16.1.226 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com: ICMP 172.16.1.226 udp port 56860 unreachable, length 36
+14:26:45.137229 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [P.], seq 474:533, ack 971, win 341, options [nop,nop,TS val 2970788094 ecr 915909313], length 59
+14:26:45.137274 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [.], ack 533, win 4094, options [nop,nop,TS val 915936338 ecr 2970788094], length 0
+14:26:45.138131 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [P.], seq 533:571, ack 971, win 341, options [nop,nop,TS val 2970788094 ecr 915909313], length 38
+14:26:45.138158 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [.], ack 571, win 4094, options [nop,nop,TS val 915936338 ecr 2970788094], length 0
+14:26:45.138730 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [P.], seq 571:617, ack 971, win 341, options [nop,nop,TS val 2970788094 ecr 915909313], length 46
+14:26:45.138750 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [.], ack 617, win 4094, options [nop,nop,TS val 915936339 ecr 2970788094], length 0
+14:26:45.138920 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [P.], seq 971:1017, ack 617, win 4096, options [nop,nop,TS val 915936339 ecr 2970788094], length 46
+14:26:45.143481 IP 172.16.1.226.55229 > sfo07s17-in-f14.1e100.net.https: Flags [P.], seq 3890700444:3890700513, ack 3627561730, win 4096, options [nop,nop,TS val 915936344 ecr 3026494748], length 69
+14:26:45.143556 IP 172.16.1.226.55229 > sfo07s17-in-f14.1e100.net.https: Flags [P.], seq 69:555, ack 1, win 4096, options [nop,nop,TS val 915936344 ecr 3026494748], length 486
+14:26:45.144488 IP 172.16.1.226.54999 > qs-in-f189.1e100.net.https: Flags [P.], seq 385:723, ack 575, win 4096, options [nop,nop,TS val 915936345 ecr 1931772231], length 338
+14:26:45.159823 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [.], ack 1017, win 341, options [nop,nop,TS val 2970788173 ecr 915936339], length 0
+14:26:45.176972 IP qs-in-f189.1e100.net.https > 172.16.1.226.54999: Flags [.], ack 723, win 259, options [nop,nop,TS val 1931828907 ecr 915936345], length 0
+14:26:45.198886 IP qs-in-f189.1e100.net.https > 172.16.1.226.54999: Flags [P.], seq 575:811, ack 723, win 259, options [nop,nop,TS val 1931828930 ecr 915936345], length 236
+14:26:45.198935 IP 172.16.1.226.54999 > qs-in-f189.1e100.net.https: Flags [.], ack 811, win 4088, options [nop,nop,TS val 915936397 ecr 1931828930], length 0
+14:26:45.210317 IP qs-in-f189.1e100.net.https > 172.16.1.226.54999: Flags [P.], seq 811:914, ack 723, win 259, options [nop,nop,TS val 1931828942 ecr 915936345], length 103
+14:26:45.210370 IP 172.16.1.226.54999 > qs-in-f189.1e100.net.https: Flags [.], ack 914, win 4092, options [nop,nop,TS val 915936408 ecr 1931828942], length 0
+14:26:45.210701 IP qs-in-f189.1e100.net.https > 172.16.1.226.54999: Flags [P.], seq 914:1072, ack 723, win 259, options [nop,nop,TS val 1931828942 ecr 915936345], length 158
+14:26:45.210706 IP qs-in-f189.1e100.net.https > 172.16.1.226.54999: Flags [P.], seq 1072:1118, ack 723, win 259, options [nop,nop,TS val 1931828942 ecr 915936345], length 46
+14:26:45.210743 IP 172.16.1.226.54999 > qs-in-f189.1e100.net.https: Flags [.], ack 1072, win 4087, options [nop,nop,TS val 915936408 ecr 1931828942], length 0
+14:26:45.210764 IP 172.16.1.226.54999 > qs-in-f189.1e100.net.https: Flags [.], ack 1118, win 4089, options [nop,nop,TS val 915936408 ecr 1931828942], length 0
+14:26:45.211445 IP 172.16.1.226.54999 > qs-in-f189.1e100.net.https: Flags [P.], seq 723:769, ack 1118, win 4096, options [nop,nop,TS val 915936409 ecr 1931828942], length 46
+14:26:45.223276 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [P.], seq 1017:1939, ack 617, win 4096, options [nop,nop,TS val 915936420 ecr 2970788173], length 922
+14:26:45.223565 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55229: Flags [.], ack 69, win 232, options [nop,nop,TS val 3026634356 ecr 915936344], length 0
+14:26:45.224444 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55229: Flags [.], ack 555, win 243, options [nop,nop,TS val 3026634356 ecr 915936344], length 0
+14:26:45.243224 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [.], ack 1939, win 350, options [nop,nop,TS val 2970788256 ecr 915936420], length 0
+14:26:45.251784 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55229: Flags [P.], seq 1:282, ack 555, win 243, options [nop,nop,TS val 3026634384 ecr 915936344], length 281
+14:26:45.251821 IP 172.16.1.226.55229 > sfo07s17-in-f14.1e100.net.https: Flags [.], ack 282, win 4087, options [nop,nop,TS val 915936447 ecr 3026634384], length 0
+14:26:45.252702 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55229: Flags [P.], seq 282:640, ack 555, win 243, options [nop,nop,TS val 3026634384 ecr 915936344], length 358
+14:26:45.252719 IP 172.16.1.226.55229 > sfo07s17-in-f14.1e100.net.https: Flags [.], ack 640, win 4084, options [nop,nop,TS val 915936447 ecr 3026634384], length 0
+14:26:45.253768 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55229: Flags [P.], seq 640:686, ack 555, win 243, options [nop,nop,TS val 3026634384 ecr 915936344], length 46
+14:26:45.253791 IP 172.16.1.226.55229 > sfo07s17-in-f14.1e100.net.https: Flags [.], ack 686, win 4094, options [nop,nop,TS val 915936448 ecr 3026634384], length 0
+14:26:45.253919 IP 172.16.1.226.55229 > sfo07s17-in-f14.1e100.net.https: Flags [P.], seq 555:601, ack 686, win 4096, options [nop,nop,TS val 915936448 ecr 3026634384], length 46
+14:26:45.276120 IP qs-in-f189.1e100.net.https > 172.16.1.226.54999: Flags [.], ack 769, win 259, options [nop,nop,TS val 1931828967 ecr 915936409], length 0
+14:26:45.300973 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [P.], seq 617:831, ack 1939, win 350, options [nop,nop,TS val 2970788298 ecr 915936420], length 214
+14:26:45.301009 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [.], ack 831, win 4089, options [nop,nop,TS val 915936494 ecr 2970788298], length 0
+14:26:45.301808 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [P.], seq 831:890, ack 1939, win 350, options [nop,nop,TS val 2970788298 ecr 915936420], length 59
+14:26:45.301859 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [.], ack 890, win 4094, options [nop,nop,TS val 915936494 ecr 2970788298], length 0
+14:26:45.375386 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55229: Flags [.], ack 601, win 243, options [nop,nop,TS val 3026634467 ecr 915936448], length 0
+14:26:45.677622 IP 172.16.1.226.63333 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain: 2225+ PTR? 78.6.217.172.in-addr.arpa. (43)
+14:26:45.774171 IP ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain > 172.16.1.226.63333: 2225 2/4/4 PTR sfo07s17-in-f14.1e100.net., PTR sfo07s17-in-f78.1e100.net. (258)
+14:26:47.160219 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], seq 445413194:445414562, ack 2401450147, win 4096, options [nop,nop,TS val 915938348 ecr 3581238621], length 1368
+14:26:47.160223 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 1368:1455, ack 1, win 4096, options [nop,nop,TS val 915938348 ecr 3581238621], length 87
+14:26:47.243416 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [.], ack 1368, win 491, options [nop,nop,TS val 3581324159 ecr 915938348], length 0
+14:26:47.246641 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [.], ack 1455, win 491, options [nop,nop,TS val 3581324163 ecr 915938348], length 0
+14:26:47.284496 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 1:213, ack 1455, win 491, options [nop,nop,TS val 3581324200 ecr 915938348], length 212
+14:26:47.284555 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 213, win 4089, options [nop,nop,TS val 915938471 ecr 3581324200], length 0
+14:26:47.287261 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 213:902, ack 1455, win 491, options [nop,nop,TS val 3581324200 ecr 915938348], length 689
+14:26:47.287315 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 902, win 4074, options [nop,nop,TS val 915938473 ecr 3581324200], length 0
+14:26:47.287482 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 902:1522, ack 1455, win 491, options [nop,nop,TS val 3581324200 ecr 915938348], length 620
+14:26:47.287503 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 1522, win 4076, options [nop,nop,TS val 915938473 ecr 3581324200], length 0
+14:26:47.288377 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 1522:1668, ack 1455, win 491, options [nop,nop,TS val 3581324200 ecr 915938348], length 146
+14:26:47.288421 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 1668, win 4091, options [nop,nop,TS val 915938474 ecr 3581324200], length 0
+14:26:47.289254 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 1668:1954, ack 1455, win 491, options [nop,nop,TS val 3581324200 ecr 915938348], length 286
+14:26:47.289285 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 1954, win 4087, options [nop,nop,TS val 915938474 ecr 3581324200], length 0
+14:26:47.290407 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 1954:3340, ack 1455, win 491, options [nop,nop,TS val 3581324200 ecr 915938348], length 1386
+14:26:47.290450 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 3340, win 4052, options [nop,nop,TS val 915938475 ecr 3581324200], length 0
+14:26:47.290807 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 3340:3544, ack 1455, win 491, options [nop,nop,TS val 3581324200 ecr 915938348], length 204
+14:26:47.290836 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 3544, win 4089, options [nop,nop,TS val 915938476 ecr 3581324200], length 0
+14:26:47.291430 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 3544:4010, ack 1455, win 491, options [nop,nop,TS val 3581324200 ecr 915938348], length 466
+14:26:47.291458 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 4010, win 4081, options [nop,nop,TS val 915938476 ecr 3581324200], length 0
+14:26:47.292844 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 4010:4086, ack 1455, win 491, options [nop,nop,TS val 3581324200 ecr 915938348], length 76
+14:26:47.292854 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 4086:4260, ack 1455, win 491, options [nop,nop,TS val 3581324200 ecr 915938348], length 174
+14:26:47.292856 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 4260:4392, ack 1455, win 491, options [nop,nop,TS val 3581324200 ecr 915938348], length 132
+14:26:47.292858 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 4392:4693, ack 1455, win 491, options [nop,nop,TS val 3581324201 ecr 915938348], length 301
+14:26:47.292859 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 4693:4805, ack 1455, win 491, options [nop,nop,TS val 3581324201 ecr 915938348], length 112
+14:26:47.292861 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 4805:5224, ack 1455, win 491, options [nop,nop,TS val 3581324201 ecr 915938348], length 419
+14:26:47.292863 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 5224:5840, ack 1455, win 491, options [nop,nop,TS val 3581324201 ecr 915938348], length 616
+14:26:47.292901 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 4086, win 4093, options [nop,nop,TS val 915938478 ecr 3581324200], length 0
+14:26:47.292959 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 4260, win 4088, options [nop,nop,TS val 915938478 ecr 3581324200], length 0
+14:26:47.292971 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 4392, win 4084, options [nop,nop,TS val 915938478 ecr 3581324200], length 0
+14:26:47.292991 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 4693, win 4074, options [nop,nop,TS val 915938478 ecr 3581324201], length 0
+14:26:47.293003 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 4805, win 4071, options [nop,nop,TS val 915938478 ecr 3581324201], length 0
+14:26:47.293014 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 5224, win 4058, options [nop,nop,TS val 915938478 ecr 3581324201], length 0
+14:26:47.293057 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 5840, win 4038, options [nop,nop,TS val 915938478 ecr 3581324201], length 0
+14:26:47.293062 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 5840:6038, ack 1455, win 491, options [nop,nop,TS val 3581324202 ecr 915938348], length 198
+14:26:47.293065 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 6038:6154, ack 1455, win 491, options [nop,nop,TS val 3581324202 ecr 915938348], length 116
+14:26:47.293068 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 6154:6210, ack 1455, win 491, options [nop,nop,TS val 3581324202 ecr 915938348], length 56
+14:26:47.293070 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 6210:6429, ack 1455, win 491, options [nop,nop,TS val 3581324202 ecr 915938348], length 219
+14:26:47.293073 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 6429:6668, ack 1455, win 491, options [nop,nop,TS val 3581324202 ecr 915938348], length 239
+14:26:47.293075 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 6668:7206, ack 1455, win 491, options [nop,nop,TS val 3581324202 ecr 915938348], length 538
+14:26:47.293078 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 7206:7927, ack 1455, win 491, options [nop,nop,TS val 3581324202 ecr 915938348], length 721
+14:26:47.293080 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 7927:8159, ack 1455, win 491, options [nop,nop,TS val 3581324202 ecr 915938348], length 232
+14:26:47.293097 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 6038, win 4032, options [nop,nop,TS val 915938478 ecr 3581324202], length 0
+14:26:47.293110 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 6154, win 4029, options [nop,nop,TS val 915938478 ecr 3581324202], length 0
+14:26:47.293122 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 6210, win 4027, options [nop,nop,TS val 915938478 ecr 3581324202], length 0
+14:26:47.293135 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 6429, win 4020, options [nop,nop,TS val 915938478 ecr 3581324202], length 0
+14:26:47.293146 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 6668, win 4012, options [nop,nop,TS val 915938478 ecr 3581324202], length 0
+14:26:47.293175 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 7206, win 3996, options [nop,nop,TS val 915938478 ecr 3581324202], length 0
+14:26:47.293182 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 7927, win 3973, options [nop,nop,TS val 915938478 ecr 3581324202], length 0
+14:26:47.293190 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 8159, win 3966, options [nop,nop,TS val 915938478 ecr 3581324202], length 0
+14:26:47.293238 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 8159, win 4096, options [nop,nop,TS val 915938478 ecr 3581324202], length 0
+14:26:47.294118 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 1455:1497, ack 8159, win 4096, options [nop,nop,TS val 915938479 ecr 3581324202], length 42
+14:26:47.314275 IP 172.16.1.226.55157 > sfo07s17-in-f14.1e100.net.https: Flags [.], seq 1247214605:1247215973, ack 231491882, win 4096, options [nop,nop,TS val 915938499 ecr 3378201749], length 1368
+14:26:47.314286 IP 172.16.1.226.55157 > sfo07s17-in-f14.1e100.net.https: Flags [P.], seq 1368:1484, ack 1, win 4096, options [nop,nop,TS val 915938499 ecr 3378201749], length 116
+14:26:47.314367 IP 172.16.1.226.55157 > sfo07s17-in-f14.1e100.net.https: Flags [P.], seq 1484:2048, ack 1, win 4096, options [nop,nop,TS val 915938499 ecr 3378201749], length 564
+14:26:47.319803 IP 172.16.1.226.55157 > sfo07s17-in-f14.1e100.net.https: Flags [P.], seq 2048:2090, ack 1, win 4096, options [nop,nop,TS val 915938504 ecr 3378201749], length 42
+14:26:47.393876 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55157: Flags [.], ack 1368, win 534, options [nop,nop,TS val 3378302078 ecr 915938499], length 0
+14:26:47.398671 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55157: Flags [.], ack 1484, win 534, options [nop,nop,TS val 3378302083 ecr 915938499], length 0
+14:26:47.399362 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55157: Flags [.], ack 2090, win 544, options [nop,nop,TS val 3378302083 ecr 915938504], length 0
+14:26:47.400084 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55157: Flags [.], ack 2048, win 544, options [nop,nop,TS val 3378302083 ecr 915938499], length 0
+14:26:47.400436 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 8159:9577, ack 1497, win 491, options [nop,nop,TS val 3581324316 ecr 915938479], length 1418
+14:26:47.400437 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 9577:9921, ack 1497, win 491, options [nop,nop,TS val 3581324316 ecr 915938479], length 344
+14:26:47.400473 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 9577, win 4051, options [nop,nop,TS val 915938583 ecr 3581324316], length 0
+14:26:47.400490 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 9921, win 4040, options [nop,nop,TS val 915938583 ecr 3581324316], length 0
+14:26:47.416186 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], seq 1497:2865, ack 9921, win 4096, options [nop,nop,TS val 915938599 ecr 3581324316], length 1368
+14:26:47.416191 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 2865:3007, ack 9921, win 4096, options [nop,nop,TS val 915938599 ecr 3581324316], length 142
+14:26:47.416234 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 3007:3103, ack 9921, win 4096, options [nop,nop,TS val 915938599 ecr 3581324316], length 96
+14:26:47.426793 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], seq 1222288387:1222289755, ack 90747343, win 4096, options [nop,nop,TS val 915938609 ecr 134338076], length 1368
+14:26:47.426804 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 1368:1586, ack 1, win 4096, options [nop,nop,TS val 915938609 ecr 134338076], length 218
+14:26:47.426877 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 1586:1803, ack 1, win 4096, options [nop,nop,TS val 915938609 ecr 134338076], length 217
+14:26:47.434499 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 1803:2056, ack 1, win 4096, options [nop,nop,TS val 915938616 ecr 134338076], length 253
+14:26:47.444362 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 9921:10630, ack 1497, win 491, options [nop,nop,TS val 3581324361 ecr 915938479], length 709
+14:26:47.444391 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 10630, win 4073, options [nop,nop,TS val 915938625 ecr 3581324361], length 0
+14:26:47.451635 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 2056:2251, ack 1, win 4096, options [nop,nop,TS val 915938632 ecr 134338076], length 195
+14:26:47.451707 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 2251:2439, ack 1, win 4096, options [nop,nop,TS val 915938632 ecr 134338076], length 188
+14:26:47.505224 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [.], ack 3007, win 512, options [nop,nop,TS val 3581324422 ecr 915938599], length 0
+14:26:47.517768 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 1368, win 811, options [nop,nop,TS val 134437893 ecr 915938609], length 0
+14:26:47.518376 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 1586, win 811, options [nop,nop,TS val 134437893 ecr 915938609], length 0
+14:26:47.518751 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 1803, win 811, options [nop,nop,TS val 134437893 ecr 915938609], length 0
+14:26:47.529363 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 2056, win 811, options [nop,nop,TS val 134437905 ecr 915938616], length 0
+14:26:47.540811 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 10630:10844, ack 3103, win 512, options [nop,nop,TS val 3581324457 ecr 915938599], length 214
+14:26:47.540845 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 10844, win 4089, options [nop,nop,TS val 915938719 ecr 3581324457], length 0
+14:26:47.541882 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 10844:11113, ack 3103, win 512, options [nop,nop,TS val 3581324457 ecr 915938599], length 269
+14:26:47.541884 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 2251, win 811, options [nop,nop,TS val 134437916 ecr 915938632], length 0
+14:26:47.541884 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 2439, win 811, options [nop,nop,TS val 134437916 ecr 915938632], length 0
+14:26:47.541897 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 11113, win 4087, options [nop,nop,TS val 915938720 ecr 3581324457], length 0
+14:26:47.542278 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 11113:11309, ack 3103, win 512, options [nop,nop,TS val 3581324458 ecr 915938625], length 196
+14:26:47.542279 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 11309:11466, ack 3103, win 512, options [nop,nop,TS val 3581324458 ecr 915938625], length 157
+14:26:47.542280 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 11466:11512, ack 3103, win 512, options [nop,nop,TS val 3581324458 ecr 915938625], length 46
+14:26:47.542295 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 11309, win 4089, options [nop,nop,TS val 915938720 ecr 3581324458], length 0
+14:26:47.542303 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 11466, win 4084, options [nop,nop,TS val 915938720 ecr 3581324458], length 0
+14:26:47.542308 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 11512, win 4083, options [nop,nop,TS val 915938720 ecr 3581324458], length 0
+14:26:47.542567 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 3103:3149, ack 11512, win 4096, options [nop,nop,TS val 915938720 ecr 3581324458], length 46
+14:26:47.566436 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 1:401, ack 2439, win 811, options [nop,nop,TS val 134437942 ecr 915938632], length 400
+14:26:47.566496 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 401, win 4083, options [nop,nop,TS val 915938744 ecr 134437942], length 0
+14:26:47.566952 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 401:580, ack 2439, win 811, options [nop,nop,TS val 134437942 ecr 915938632], length 179
+14:26:47.566955 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 580:709, ack 2439, win 811, options [nop,nop,TS val 134437942 ecr 915938632], length 129
+14:26:47.566957 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 709:755, ack 2439, win 811, options [nop,nop,TS val 134437942 ecr 915938632], length 46
+14:26:47.566986 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 580, win 4090, options [nop,nop,TS val 915938744 ecr 134437942], length 0
+14:26:47.567006 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 709, win 4086, options [nop,nop,TS val 915938744 ecr 134437942], length 0
+14:26:47.567019 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 755, win 4084, options [nop,nop,TS val 915938744 ecr 134437942], length 0
+14:26:47.567930 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 2439:2485, ack 755, win 4096, options [nop,nop,TS val 915938745 ecr 134437942], length 46
+14:26:47.605699 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 11512:12930, ack 3103, win 512, options [nop,nop,TS val 3581324522 ecr 915938625], length 1418
+14:26:47.605703 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 12930:13898, ack 3103, win 512, options [nop,nop,TS val 3581324522 ecr 915938625], length 968
+14:26:47.605748 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 12930, win 4051, options [nop,nop,TS val 915938782 ecr 3581324522], length 0
+14:26:47.605760 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 13898, win 4021, options [nop,nop,TS val 915938782 ecr 3581324522], length 0
+14:26:47.607082 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 13898:14170, ack 3103, win 512, options [nop,nop,TS val 3581324522 ecr 915938625], length 272
+14:26:47.607109 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 14170, win 4087, options [nop,nop,TS val 915938783 ecr 3581324522], length 0
+14:26:47.627225 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 755:1072, ack 2439, win 811, options [nop,nop,TS val 134438002 ecr 915938632], length 317
+14:26:47.627269 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 1072, win 4086, options [nop,nop,TS val 915938803 ecr 134438002], length 0
+14:26:47.628418 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 1072:1110, ack 2439, win 811, options [nop,nop,TS val 134438002 ecr 915938632], length 38
+14:26:47.628511 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 1110, win 4084, options [nop,nop,TS val 915938804 ecr 134438002], length 0
+14:26:47.644436 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 1110:1692, ack 2439, win 811, options [nop,nop,TS val 134438019 ecr 915938632], length 582
+14:26:47.644439 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 1692:2048, ack 2439, win 811, options [nop,nop,TS val 134438019 ecr 915938632], length 356
+14:26:47.644440 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 2048:2127, ack 2439, win 811, options [nop,nop,TS val 134438019 ecr 915938632], length 79
+14:26:47.644481 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 1692, win 4077, options [nop,nop,TS val 915938820 ecr 134438019], length 0
+14:26:47.644492 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 2048, win 4066, options [nop,nop,TS val 915938820 ecr 134438019], length 0
+14:26:47.644497 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 2127, win 4064, options [nop,nop,TS val 915938820 ecr 134438019], length 0
+14:26:47.664452 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [.], ack 3149, win 512, options [nop,nop,TS val 3581324541 ecr 915938720], length 0
+14:26:47.690945 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 2485, win 811, options [nop,nop,TS val 134438027 ecr 915938745], length 0
+14:26:47.726315 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 2485:3198, ack 2127, win 4096, options [nop,nop,TS val 915938900 ecr 134438027], length 713
+14:26:47.726669 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 3198:3590, ack 2127, win 4096, options [nop,nop,TS val 915938900 ecr 134438027], length 392
+14:26:47.739146 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [.], seq 570149546:570150914, ack 1035501019, win 4096, options [nop,nop,TS val 915938912 ecr 301480007], length 1368
+14:26:47.739156 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [P.], seq 1368:1451, ack 1, win 4096, options [nop,nop,TS val 915938912 ecr 301480007], length 83
+14:26:47.739205 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [.], seq 1451:2819, ack 1, win 4096, options [nop,nop,TS val 915938912 ecr 301480007], length 1368
+14:26:47.739210 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [P.], seq 2819:2877, ack 1, win 4096, options [nop,nop,TS val 915938912 ecr 301480007], length 58
+14:26:47.778175 IP 172.16.1.226.52702 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain: 22158+ PTR? 42.6.217.172.in-addr.arpa. (43)
+14:26:47.791771 IP ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain > 172.16.1.226.52702: 22158 2/4/4 PTR sfo03s08-in-f10.1e100.net., PTR sfo03s08-in-f42.1e100.net. (258)
+14:26:47.806747 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 3590, win 811, options [nop,nop,TS val 134438182 ecr 915938900], length 0
+14:26:47.823971 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [.], ack 1368, win 277, options [nop,nop,TS val 301579529 ecr 915938912], length 0
+14:26:47.831819 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [.], ack 1451, win 277, options [nop,nop,TS val 301579541 ecr 915938912], length 0
+14:26:47.832677 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [.], ack 2819, win 287, options [nop,nop,TS val 301579541 ecr 915938912], length 0
+14:26:47.843262 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [.], ack 2877, win 287, options [nop,nop,TS val 301579553 ecr 915938912], length 0
+14:26:48.062191 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 2127:2394, ack 3590, win 811, options [nop,nop,TS val 134438418 ecr 915938900], length 267
+14:26:48.062275 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 2394, win 4087, options [nop,nop,TS val 915939231 ecr 134438418], length 0
+14:26:48.063094 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 2394:2818, ack 3590, win 811, options [nop,nop,TS val 134438418 ecr 915938900], length 424
+14:26:48.063106 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 2818, win 4082, options [nop,nop,TS val 915939231 ecr 134438418], length 0
+14:26:48.064126 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 2818:2864, ack 3590, win 811, options [nop,nop,TS val 134438418 ecr 915938900], length 46
+14:26:48.064145 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 2864, win 4094, options [nop,nop,TS val 915939232 ecr 134438418], length 0
+14:26:48.064421 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 3590:3636, ack 2864, win 4096, options [nop,nop,TS val 915939232 ecr 134438418], length 46
+14:26:48.065207 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [P.], seq 1:244, ack 2877, win 287, options [nop,nop,TS val 301579758 ecr 915938912], length 243
+14:26:48.065225 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [.], ack 244, win 4088, options [nop,nop,TS val 915939233 ecr 301579758], length 0
+14:26:48.066280 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [P.], seq 244:1662, ack 2877, win 287, options [nop,nop,TS val 301579758 ecr 915938912], length 1418
+14:26:48.066292 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [.], ack 1662, win 4051, options [nop,nop,TS val 915939234 ecr 301579758], length 0
+14:26:48.067543 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [.], seq 1662:3080, ack 2877, win 287, options [nop,nop,TS val 301579758 ecr 915938912], length 1418
+14:26:48.067763 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [P.], seq 3080:3598, ack 2877, win 287, options [nop,nop,TS val 301579758 ecr 915938912], length 518
+14:26:48.067781 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [.], ack 3598, win 4035, options [nop,nop,TS val 915939235 ecr 301579758], length 0
+14:26:48.068831 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [P.], seq 3598:5016, ack 2877, win 287, options [nop,nop,TS val 301579758 ecr 915938912], length 1418
+14:26:48.068850 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [.], ack 5016, win 3991, options [nop,nop,TS val 915939236 ecr 301579758], length 0
+14:26:48.069055 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [.], seq 5016:6434, ack 2877, win 287, options [nop,nop,TS val 301579758 ecr 915938912], length 1418
+14:26:48.069299 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [.], ack 6434, win 4096, options [nop,nop,TS val 915939236 ecr 301579758], length 0
+14:26:48.070175 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [P.], seq 6434:7852, ack 2877, win 287, options [nop,nop,TS val 301579758 ecr 915938912], length 1418
+14:26:48.070177 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [P.], seq 7852:7913, ack 2877, win 287, options [nop,nop,TS val 301579758 ecr 915938912], length 61
+14:26:48.070178 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [P.], seq 7913:8265, ack 2877, win 287, options [nop,nop,TS val 301579759 ecr 915938912], length 352
+14:26:48.070179 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [P.], seq 8265:8341, ack 2877, win 287, options [nop,nop,TS val 301579759 ecr 915938912], length 76
+14:26:48.070180 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [P.], seq 8341:8387, ack 2877, win 287, options [nop,nop,TS val 301579759 ecr 915938912], length 46
+14:26:48.070208 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [.], ack 7852, win 4051, options [nop,nop,TS val 915939237 ecr 301579758], length 0
+14:26:48.070217 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [.], ack 7913, win 4049, options [nop,nop,TS val 915939237 ecr 301579758], length 0
+14:26:48.070221 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [.], ack 8265, win 4038, options [nop,nop,TS val 915939237 ecr 301579759], length 0
+14:26:48.070224 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [.], ack 8341, win 4036, options [nop,nop,TS val 915939237 ecr 301579759], length 0
+14:26:48.070228 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [.], ack 8387, win 4034, options [nop,nop,TS val 915939237 ecr 301579759], length 0
+14:26:48.071471 IP 172.16.1.226.55394 > sfo03s08-in-f10.1e100.net.https: Flags [P.], seq 2877:2923, ack 8387, win 4096, options [nop,nop,TS val 915939238 ecr 301579759], length 46
+14:26:48.146594 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 3636, win 811, options [nop,nop,TS val 134438522 ecr 915939232], length 0
+14:26:48.152033 IP sfo03s08-in-f10.1e100.net.https > 172.16.1.226.55394: Flags [.], ack 2923, win 287, options [nop,nop,TS val 301579861 ecr 915939238], length 0
+14:26:58.177625 IP 172.16.1.226.55229 > sfo07s17-in-f14.1e100.net.https: Flags [P.], seq 601:679, ack 686, win 4096, options [nop,nop,TS val 915949337 ecr 3026634467], length 78
+14:26:58.243351 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 3149:4119, ack 14170, win 4096, options [nop,nop,TS val 915949402 ecr 3581324541], length 970
+14:26:58.261151 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55229: Flags [.], ack 679, win 243, options [nop,nop,TS val 3026647390 ecr 915949337], length 0
+14:26:58.278164 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55229: Flags [P.], seq 686:764, ack 679, win 243, options [nop,nop,TS val 3026647408 ecr 915949337], length 78
+14:26:58.278212 IP 172.16.1.226.55229 > sfo07s17-in-f14.1e100.net.https: Flags [.], ack 764, win 4093, options [nop,nop,TS val 915949436 ecr 3026647408], length 0
+14:26:58.280781 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55229: Flags [P.], seq 764:802, ack 679, win 243, options [nop,nop,TS val 3026647408 ecr 915949337], length 38
+14:26:58.280828 IP 172.16.1.226.55229 > sfo07s17-in-f14.1e100.net.https: Flags [.], ack 802, win 4094, options [nop,nop,TS val 915949438 ecr 3026647408], length 0
+14:26:58.283714 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55229: Flags [P.], seq 802:848, ack 679, win 243, options [nop,nop,TS val 3026647408 ecr 915949337], length 46
+14:26:58.283767 IP 172.16.1.226.55229 > sfo07s17-in-f14.1e100.net.https: Flags [.], ack 848, win 4094, options [nop,nop,TS val 915949440 ecr 3026647408], length 0
+14:26:58.283969 IP 172.16.1.226.55229 > sfo07s17-in-f14.1e100.net.https: Flags [P.], seq 679:725, ack 848, win 4096, options [nop,nop,TS val 915949440 ecr 3026647408], length 46
+14:26:58.286071 IP 172.16.1.226.55157 > sfo07s17-in-f14.1e100.net.https: Flags [P.], seq 2090:2936, ack 1, win 4096, options [nop,nop,TS val 915949442 ecr 3378302083], length 846
+14:26:58.286199 IP 172.16.1.226.55157 > sfo07s17-in-f14.1e100.net.https: Flags [P.], seq 2936:3182, ack 1, win 4096, options [nop,nop,TS val 915949442 ecr 3378302083], length 246
+14:26:58.326344 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [.], ack 4119, win 523, options [nop,nop,TS val 3581335241 ecr 915949402], length 0
+14:26:58.370300 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55157: Flags [.], ack 2936, win 555, options [nop,nop,TS val 3378313054 ecr 915949442], length 0
+14:26:58.371947 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55157: Flags [.], ack 3182, win 566, options [nop,nop,TS val 3378313054 ecr 915949442], length 0
+14:26:58.372932 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 14170:14405, ack 4119, win 523, options [nop,nop,TS val 3581335289 ecr 915949402], length 235
+14:26:58.372985 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 14405, win 4088, options [nop,nop,TS val 915949526 ecr 3581335289], length 0
+14:26:58.374507 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 14405:15725, ack 4119, win 523, options [nop,nop,TS val 3581335289 ecr 915949402], length 1320
+14:26:58.374554 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 15725, win 4054, options [nop,nop,TS val 915949528 ecr 3581335289], length 0
+14:26:58.377199 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 15725:15810, ack 4119, win 523, options [nop,nop,TS val 3581335290 ecr 915949402], length 85
+14:26:58.377252 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 15810, win 4093, options [nop,nop,TS val 915949530 ecr 3581335290], length 0
+14:26:58.378860 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 15810:15856, ack 4119, win 523, options [nop,nop,TS val 3581335290 ecr 915949402], length 46
+14:26:58.378902 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 15856, win 4094, options [nop,nop,TS val 915949531 ecr 3581335290], length 0
+14:26:58.379189 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 4119:4165, ack 15856, win 4096, options [nop,nop,TS val 915949531 ecr 3581335290], length 46
+14:26:58.396256 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55157: Flags [P.], seq 1:239, ack 3182, win 566, options [nop,nop,TS val 3378313079 ecr 915949442], length 238
+14:26:58.396285 IP 172.16.1.226.55157 > sfo07s17-in-f14.1e100.net.https: Flags [.], ack 239, win 4088, options [nop,nop,TS val 915949548 ecr 3378313079], length 0
+14:26:58.398922 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55157: Flags [P.], seq 239:547, ack 3182, win 566, options [nop,nop,TS val 3378313079 ecr 915949442], length 308
+14:26:58.398924 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55157: Flags [P.], seq 547:593, ack 3182, win 566, options [nop,nop,TS val 3378313079 ecr 915949442], length 46
+14:26:58.398952 IP 172.16.1.226.55157 > sfo07s17-in-f14.1e100.net.https: Flags [.], ack 547, win 4086, options [nop,nop,TS val 915949550 ecr 3378313079], length 0
+14:26:58.398960 IP 172.16.1.226.55157 > sfo07s17-in-f14.1e100.net.https: Flags [.], ack 593, win 4084, options [nop,nop,TS val 915949550 ecr 3378313079], length 0
+14:26:58.399265 IP 172.16.1.226.55157 > sfo07s17-in-f14.1e100.net.https: Flags [P.], seq 3182:3228, ack 593, win 4096, options [nop,nop,TS val 915949550 ecr 3378313079], length 46
+14:26:58.403672 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55229: Flags [.], ack 725, win 243, options [nop,nop,TS val 3026647496 ecr 915949440], length 0
+14:26:58.404269 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 4165:5109, ack 15856, win 4096, options [nop,nop,TS val 915949554 ecr 3581335290], length 944
+14:26:58.404377 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], seq 5109:6477, ack 15856, win 4096, options [nop,nop,TS val 915949554 ecr 3581335290], length 1368
+14:26:58.404379 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 6477:7080, ack 15856, win 4096, options [nop,nop,TS val 915949554 ecr 3581335290], length 603
+14:26:58.414603 IP 172.16.1.226.55493 > lga34s13-in-f13.1e100.net.https: Flags [.], seq 1801677663:1801679031, ack 258914548, win 4096, options [nop,nop,TS val 915949564 ecr 4211049685], length 1368
+14:26:58.414607 IP 172.16.1.226.55493 > lga34s13-in-f13.1e100.net.https: Flags [P.], seq 1368:1895, ack 1, win 4096, options [nop,nop,TS val 915949564 ecr 4211049685], length 527
+14:26:58.444770 IP lga34s13-in-f13.1e100.net.https > 172.16.1.226.55493: Flags [.], ack 1368, win 245, options [nop,nop,TS val 4211146632 ecr 915949564], length 0
+14:26:58.447386 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 7080:7174, ack 15856, win 4096, options [nop,nop,TS val 915949596 ecr 3581335290], length 94
+14:26:58.447474 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], seq 7174:8542, ack 15856, win 4096, options [nop,nop,TS val 915949596 ecr 3581335290], length 1368
+14:26:58.447478 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 8542:9143, ack 15856, win 4096, options [nop,nop,TS val 915949596 ecr 3581335290], length 601
+14:26:58.460583 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [.], ack 4165, win 523, options [nop,nop,TS val 3581335376 ecr 915949531], length 0
+14:26:58.466757 IP lga34s13-in-f13.1e100.net.https > 172.16.1.226.55493: Flags [.], ack 1895, win 256, options [nop,nop,TS val 4211146655 ecr 915949564], length 0
+14:26:58.485624 IP lga34s13-in-f13.1e100.net.https > 172.16.1.226.55493: Flags [P.], seq 1:76, ack 1895, win 256, options [nop,nop,TS val 4211146674 ecr 915949564], length 75
+14:26:58.485672 IP 172.16.1.226.55493 > lga34s13-in-f13.1e100.net.https: Flags [.], ack 76, win 4093, options [nop,nop,TS val 915949632 ecr 4211146674], length 0
+14:26:58.486024 IP lga34s13-in-f13.1e100.net.https > 172.16.1.226.55493: Flags [P.], seq 76:971, ack 1895, win 256, options [nop,nop,TS val 4211146674 ecr 915949564], length 895
+14:26:58.486067 IP 172.16.1.226.55493 > lga34s13-in-f13.1e100.net.https: Flags [.], ack 971, win 4068, options [nop,nop,TS val 915949632 ecr 4211146674], length 0
+14:26:58.488197 IP lga34s13-in-f13.1e100.net.https > 172.16.1.226.55493: Flags [P.], seq 971:1017, ack 1895, win 256, options [nop,nop,TS val 4211146674 ecr 915949564], length 46
+14:26:58.488239 IP 172.16.1.226.55493 > lga34s13-in-f13.1e100.net.https: Flags [.], ack 1017, win 4094, options [nop,nop,TS val 915949634 ecr 4211146674], length 0
+14:26:58.488446 IP 172.16.1.226.55493 > lga34s13-in-f13.1e100.net.https: Flags [P.], seq 1895:1941, ack 1017, win 4096, options [nop,nop,TS val 915949634 ecr 4211146674], length 46
+14:26:58.492468 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [.], ack 5109, win 534, options [nop,nop,TS val 3581335403 ecr 915949554], length 0
+14:26:58.492472 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [.], ack 6477, win 544, options [nop,nop,TS val 3581335403 ecr 915949554], length 0
+14:26:58.492474 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [.], ack 7080, win 555, options [nop,nop,TS val 3581335403 ecr 915949554], length 0
+14:26:58.515995 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 15856:15930, ack 7080, win 555, options [nop,nop,TS val 3581335432 ecr 915949554], length 74
+14:26:58.516042 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 15930, win 4093, options [nop,nop,TS val 915949661 ecr 3581335432], length 0
+14:26:58.518028 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 15930:15968, ack 7080, win 555, options [nop,nop,TS val 3581335434 ecr 915949554], length 38
+14:26:58.518075 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 15968, win 4094, options [nop,nop,TS val 915949663 ecr 3581335434], length 0
+14:26:58.519265 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 15968:16014, ack 7080, win 555, options [nop,nop,TS val 3581335434 ecr 915949554], length 46
+14:26:58.519314 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 16014, win 4094, options [nop,nop,TS val 915949664 ecr 3581335434], length 0
+14:26:58.519479 IP sfo07s17-in-f14.1e100.net.https > 172.16.1.226.55157: Flags [.], ack 3228, win 566, options [nop,nop,TS val 3378313164 ecr 915949550], length 0
+14:26:58.519503 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [P.], seq 9143:9189, ack 16014, win 4096, options [nop,nop,TS val 915949664 ecr 3581335434], length 46
+14:26:58.537837 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [.], ack 8542, win 566, options [nop,nop,TS val 3581335454 ecr 915949596], length 0
+14:26:58.590257 IP lga34s13-in-f13.1e100.net.https > 172.16.1.226.55493: Flags [.], ack 1941, win 256, options [nop,nop,TS val 4211146737 ecr 915949634], length 0
+14:26:58.603582 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 16014:16088, ack 9143, win 576, options [nop,nop,TS val 3581335518 ecr 915949596], length 74
+14:26:58.603653 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 16088, win 4093, options [nop,nop,TS val 915949746 ecr 3581335518], length 0
+14:26:58.606344 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [P.], seq 16088:16126, ack 9143, win 576, options [nop,nop,TS val 3581335520 ecr 915949596], length 38
+14:26:58.606393 IP 172.16.1.226.55392 > sfo03s01-in-f14.1e100.net.https: Flags [.], ack 16126, win 4094, options [nop,nop,TS val 915949748 ecr 3581335520], length 0
+14:26:58.660286 IP sfo03s01-in-f14.1e100.net.https > 172.16.1.226.55392: Flags [.], ack 9189, win 576, options [nop,nop,TS val 3581335525 ecr 915949664], length 0
+14:26:58.803660 IP 172.16.1.226.52460 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain: 14185+ PTR? 45.10.217.172.in-addr.arpa. (44)
+14:26:59.029718 IP ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain > 172.16.1.226.52460: 14185 1/4/4 PTR lga34s13-in-f13.1e100.net. (229)
+14:27:01.886688 IP 172.16.1.226.51223 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain: 40928+ A? cf-spring-fantastic-roan.cfapps.io. (52)
+14:27:01.926112 IP ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain > 172.16.1.226.51223: 40928 2/6/6 A 52.4.166.83, A 52.70.0.168 (292)
+14:27:01.927522 IP 172.16.1.226.55559 > ec2-52-4-166-83.compute-1.amazonaws.com.http: Flags [S], seq 3865887720, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 915953064 ecr 0,sackOK,eol], length 0
+14:27:01.943190 IP ec2-52-4-166-83.compute-1.amazonaws.com.http > 172.16.1.226.55559: Flags [S.], seq 4207163486, ack 3865887721, win 28960, options [mss 1460,sackOK,TS val 276333463 ecr 915953064,nop,wscale 8], length 0
+14:27:01.943275 IP 172.16.1.226.55559 > ec2-52-4-166-83.compute-1.amazonaws.com.http: Flags [.], ack 1, win 4117, options [nop,nop,TS val 915953079 ecr 276333463], length 0
+14:27:01.944355 IP 172.16.1.226.55559 > ec2-52-4-166-83.compute-1.amazonaws.com.http: Flags [P.], seq 1:408, ack 1, win 4117, options [nop,nop,TS val 915953080 ecr 276333463], length 407: HTTP: GET /ping.txt HTTP/1.1
+14:27:01.964667 IP ec2-52-4-166-83.compute-1.amazonaws.com.http > 172.16.1.226.55559: Flags [.], ack 408, win 118, options [nop,nop,TS val 276333468 ecr 915953080], length 0
+14:27:01.964670 IP ec2-52-4-166-83.compute-1.amazonaws.com.http > 172.16.1.226.55559: Flags [P.], seq 1:301, ack 408, win 118, options [nop,nop,TS val 276333469 ecr 915953080], length 300: HTTP: HTTP/1.1 404 Not Found
+14:27:01.964725 IP 172.16.1.226.55559 > ec2-52-4-166-83.compute-1.amazonaws.com.http: Flags [.], ack 301, win 4108, options [nop,nop,TS val 915953100 ecr 276333469], length 0
+14:27:02.034275 IP 172.16.1.226.56491 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain: 36528+ PTR? 83.166.4.52.in-addr.arpa. (42)
+14:27:02.051441 IP ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain > 172.16.1.226.56491: 36528 1/6/6 PTR ec2-52-4-166-83.compute-1.amazonaws.com. (303)
+14:27:13.651679 IP qs-in-f189.1e100.net.https > 172.16.1.226.55005: Flags [P.], seq 890:949, ack 1939, win 350, options [nop,nop,TS val 2970816661 ecr 915936494], length 59
+14:27:13.651734 IP 172.16.1.226.55005 > qs-in-f189.1e100.net.https: Flags [.], ack 949, win 4094, options [nop,nop,TS val 915964780 ecr 2970816661], length 0
+14:27:16.074837 IP 172.16.1.226.55560 > ec2-52-4-166-83.compute-1.amazonaws.com.https: Flags [S], seq 1985178417, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 915967202 ecr 0,sackOK,eol], length 0
+14:27:16.088576 IP ec2-52-4-166-83.compute-1.amazonaws.com.https > 172.16.1.226.55560: Flags [S.], seq 4013444117, ack 1985178418, win 28960, options [mss 1460,sackOK,TS val 276337000 ecr 915967202,nop,wscale 8], length 0
+14:27:16.088638 IP 172.16.1.226.55560 > ec2-52-4-166-83.compute-1.amazonaws.com.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 915967215 ecr 276337000], length 0
+14:27:16.089612 IP 172.16.1.226.55560 > ec2-52-4-166-83.compute-1.amazonaws.com.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 915967215 ecr 276337000], length 517
+14:27:16.106806 IP ec2-52-4-166-83.compute-1.amazonaws.com.https > 172.16.1.226.55560: Flags [.], ack 518, win 118, options [nop,nop,TS val 276337004 ecr 915967215], length 0
+14:27:16.108078 IP ec2-52-4-166-83.compute-1.amazonaws.com.https > 172.16.1.226.55560: Flags [.], seq 1:1449, ack 518, win 118, options [nop,nop,TS val 276337004 ecr 915967215], length 1448
+14:27:16.108083 IP ec2-52-4-166-83.compute-1.amazonaws.com.https > 172.16.1.226.55560: Flags [.], seq 1449:2897, ack 518, win 118, options [nop,nop,TS val 276337004 ecr 915967215], length 1448
+14:27:16.108167 IP 172.16.1.226.55560 > ec2-52-4-166-83.compute-1.amazonaws.com.https: Flags [.], ack 2897, win 4027, options [nop,nop,TS val 915967233 ecr 276337004], length 0
+14:27:16.108707 IP ec2-52-4-166-83.compute-1.amazonaws.com.https > 172.16.1.226.55560: Flags [P.], seq 2897:4097, ack 518, win 118, options [nop,nop,TS val 276337004 ecr 915967215], length 1200
+14:27:16.108759 IP 172.16.1.226.55560 > ec2-52-4-166-83.compute-1.amazonaws.com.https: Flags [.], ack 4097, win 4058, options [nop,nop,TS val 915967233 ecr 276337004], length 0
+14:27:16.110238 IP ec2-52-4-166-83.compute-1.amazonaws.com.https > 172.16.1.226.55560: Flags [P.], seq 4097:4999, ack 518, win 118, options [nop,nop,TS val 276337005 ecr 915967215], length 902
+14:27:16.110287 IP 172.16.1.226.55560 > ec2-52-4-166-83.compute-1.amazonaws.com.https: Flags [.], ack 4999, win 4067, options [nop,nop,TS val 915967235 ecr 276337005], length 0
+14:27:16.118772 IP 172.16.1.226.55560 > ec2-52-4-166-83.compute-1.amazonaws.com.https: Flags [P.], seq 518:593, ack 4999, win 4096, options [nop,nop,TS val 915967243 ecr 276337005], length 75
+14:27:16.118805 IP 172.16.1.226.55560 > ec2-52-4-166-83.compute-1.amazonaws.com.https: Flags [P.], seq 593:599, ack 4999, win 4096, options [nop,nop,TS val 915967243 ecr 276337005], length 6
+14:27:16.118831 IP 172.16.1.226.55560 > ec2-52-4-166-83.compute-1.amazonaws.com.https: Flags [P.], seq 599:644, ack 4999, win 4096, options [nop,nop,TS val 915967243 ecr 276337005], length 45
+14:27:16.132262 IP ec2-52-4-166-83.compute-1.amazonaws.com.https > 172.16.1.226.55560: Flags [.], ack 593, win 122, options [nop,nop,TS val 276337011 ecr 915967243,nop,nop,sack 1 {599:644}], length 0
+14:27:16.132307 IP 172.16.1.226.55560 > ec2-52-4-166-83.compute-1.amazonaws.com.https: Flags [.], seq 593:599, ack 4999, win 4096, options [nop,nop,TS val 915967256 ecr 276337011], length 6
+14:27:16.133334 IP ec2-52-4-166-83.compute-1.amazonaws.com.https > 172.16.1.226.55560: Flags [.], ack 644, win 122, options [nop,nop,TS val 276337011 ecr 915967243], length 0
+14:27:16.133956 IP ec2-52-4-166-83.compute-1.amazonaws.com.https > 172.16.1.226.55560: Flags [P.], seq 4999:5050, ack 644, win 122, options [nop,nop,TS val 276337011 ecr 915967243], length 51
+14:27:16.134005 IP 172.16.1.226.55560 > ec2-52-4-166-83.compute-1.amazonaws.com.https: Flags [.], ack 5050, win 4094, options [nop,nop,TS val 915967257 ecr 276337011], length 0
+14:27:16.136052 IP 172.16.1.226.55560 > ec2-52-4-166-83.compute-1.amazonaws.com.https: Flags [P.], seq 644:1081, ack 5050, win 4096, options [nop,nop,TS val 915967259 ecr 276337011], length 437
+14:27:16.144762 IP ec2-52-4-166-83.compute-1.amazonaws.com.https > 172.16.1.226.55560: Flags [.], ack 644, win 122, options [nop,nop,TS val 276337014 ecr 915967243,nop,nop,sack 1 {593:599}], length 0
+14:27:16.156385 IP ec2-52-4-166-83.compute-1.amazonaws.com.https > 172.16.1.226.55560: Flags [.], ack 1081, win 126, options [nop,nop,TS val 276337017 ecr 915967259], length 0
+14:27:16.157879 IP ec2-52-4-166-83.compute-1.amazonaws.com.https > 172.16.1.226.55560: Flags [P.], seq 5050:5379, ack 1081, win 126, options [nop,nop,TS val 276337017 ecr 915967259], length 329
+14:27:16.157927 IP 172.16.1.226.55560 > ec2-52-4-166-83.compute-1.amazonaws.com.https: Flags [.], ack 5379, win 4085, options [nop,nop,TS val 915967278 ecr 276337017], length 0
+14:27:16.576362 IP 172.16.1.226.61098 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain: 26888+ A? 28.client-channel.google.com. (46)
+14:27:16.582988 IP 172.16.1.226.55013 > sfo07s13-in-f14.1e100.net.https: Flags [.], seq 3903207202:3903208570, ack 2453821749, win 4096, options [nop,nop,TS val 915967701 ecr 1740106960], length 1368
+14:27:16.582995 IP 172.16.1.226.55013 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 1368:1655, ack 1, win 4096, options [nop,nop,TS val 915967701 ecr 1740106960], length 287
+14:27:16.600222 IP ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain > 172.16.1.226.61098: 26888 1/4/4 A 173.194.175.189 (198)
+14:27:16.601289 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [S], seq 479228418, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 915967719 ecr 0,sackOK,eol], length 0
+14:27:16.622374 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [S.], seq 2701980496, ack 479228419, win 42408, options [mss 1380,sackOK,TS val 3270228998 ecr 915967719,nop,wscale 8], length 0
+14:27:16.622436 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 1, win 4104, options [nop,nop,TS val 915967740 ecr 3270228998], length 0
+14:27:16.623482 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 1:239, ack 1, win 4104, options [nop,nop,TS val 915967741 ecr 3270228998], length 238
+14:27:16.649519 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 239, win 170, options [nop,nop,TS val 3270229025 ecr 915967741], length 0
+14:27:16.651259 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], seq 1:1419, ack 239, win 170, options [nop,nop,TS val 3270229026 ecr 915967741], length 1418
+14:27:16.654212 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], seq 1419:2837, ack 239, win 170, options [nop,nop,TS val 3270229026 ecr 915967741], length 1418
+14:27:16.654215 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 2837:3254, ack 239, win 170, options [nop,nop,TS val 3270229026 ecr 915967741], length 417
+14:27:16.654251 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 2837, win 4051, options [nop,nop,TS val 915967769 ecr 3270229026], length 0
+14:27:16.654263 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 3254, win 4038, options [nop,nop,TS val 915967769 ecr 3270229026], length 0
+14:27:16.658811 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 239:314, ack 3254, win 4096, options [nop,nop,TS val 915967773 ecr 3270229026], length 75
+14:27:16.658826 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 314:320, ack 3254, win 4096, options [nop,nop,TS val 915967773 ecr 3270229026], length 6
+14:27:16.658892 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 320:365, ack 3254, win 4096, options [nop,nop,TS val 915967773 ecr 3270229026], length 45
+14:27:16.671704 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55013: Flags [.], ack 1368, win 343, options [nop,nop,TS val 1740307714 ecr 915967701], length 0
+14:27:16.672675 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55013: Flags [.], ack 1655, win 353, options [nop,nop,TS val 1740307714 ecr 915967701], length 0
+14:27:16.682083 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 365, win 170, options [nop,nop,TS val 3270229058 ecr 915967773], length 0
+14:27:16.682995 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 3254:3305, ack 365, win 170, options [nop,nop,TS val 3270229058 ecr 915967773], length 51
+14:27:16.683024 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 3305, win 4094, options [nop,nop,TS val 915967795 ecr 3270229058], length 0
+14:27:16.683231 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 3305:3374, ack 365, win 170, options [nop,nop,TS val 3270229058 ecr 915967773], length 69
+14:27:16.683244 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 3374, win 4093, options [nop,nop,TS val 915967796 ecr 3270229058], length 0
+14:27:16.684517 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 365:418, ack 3374, win 4096, options [nop,nop,TS val 915967797 ecr 3270229058], length 53
+14:27:16.684550 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 418:468, ack 3374, win 4096, options [nop,nop,TS val 915967797 ecr 3270229058], length 50
+14:27:16.684569 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 468:510, ack 3374, win 4096, options [nop,nop,TS val 915967797 ecr 3270229058], length 42
+14:27:16.684584 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], seq 510:1878, ack 3374, win 4096, options [nop,nop,TS val 915967797 ecr 3270229058], length 1368
+14:27:16.684587 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 1878:2352, ack 3374, win 4096, options [nop,nop,TS val 915967797 ecr 3270229058], length 474
+14:27:16.684651 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 2352:2390, ack 3374, win 4096, options [nop,nop,TS val 915967797 ecr 3270229058], length 38
+14:27:16.693256 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55013: Flags [P.], seq 1:236, ack 1655, win 353, options [nop,nop,TS val 1740307735 ecr 915967701], length 235
+14:27:16.693295 IP 172.16.1.226.55013 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 236, win 4088, options [nop,nop,TS val 915967805 ecr 1740307735], length 0
+14:27:16.694260 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55013: Flags [P.], seq 236:786, ack 1655, win 353, options [nop,nop,TS val 1740307735 ecr 915967701], length 550
+14:27:16.694296 IP 172.16.1.226.55013 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 786, win 4078, options [nop,nop,TS val 915967805 ecr 1740307735], length 0
+14:27:16.695195 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55013: Flags [P.], seq 786:850, ack 1655, win 353, options [nop,nop,TS val 1740307735 ecr 915967701], length 64
+14:27:16.695200 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55013: Flags [P.], seq 850:896, ack 1655, win 353, options [nop,nop,TS val 1740307736 ecr 915967701], length 46
+14:27:16.695241 IP 172.16.1.226.55013 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 850, win 4094, options [nop,nop,TS val 915967806 ecr 1740307735], length 0
+14:27:16.695258 IP 172.16.1.226.55013 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 896, win 4092, options [nop,nop,TS val 915967806 ecr 1740307736], length 0
+14:27:16.695577 IP 172.16.1.226.55013 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 1655:1701, ack 896, win 4096, options [nop,nop,TS val 915967807 ecr 1740307736], length 46
+14:27:16.709184 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 510, win 170, options [nop,nop,TS val 3270229085 ecr 915967797], length 0
+14:27:16.709781 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 2352, win 192, options [nop,nop,TS val 3270229085 ecr 915967797], length 0
+14:27:16.709782 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 3374:3412, ack 2390, win 192, options [nop,nop,TS val 3270229085 ecr 915967797], length 38
+14:27:16.709815 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 3412, win 4094, options [nop,nop,TS val 915967820 ecr 3270229085], length 0
+14:27:16.713606 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 3412:3706, ack 2390, win 192, options [nop,nop,TS val 3270229090 ecr 915967797], length 294
+14:27:16.713640 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 3706, win 4086, options [nop,nop,TS val 915967824 ecr 3270229090], length 0
+14:27:16.713877 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 3706:4276, ack 2390, win 192, options [nop,nop,TS val 3270229090 ecr 915967797], length 570
+14:27:16.713891 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 4276, win 4078, options [nop,nop,TS val 915967824 ecr 3270229090], length 0
+14:27:16.714728 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 4276:4546, ack 2390, win 192, options [nop,nop,TS val 3270229090 ecr 915967797], length 270
+14:27:16.714729 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 4546:4592, ack 2390, win 192, options [nop,nop,TS val 3270229090 ecr 915967797], length 46
+14:27:16.714753 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 4546, win 4087, options [nop,nop,TS val 915967825 ecr 3270229090], length 0
+14:27:16.714762 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 4592, win 4086, options [nop,nop,TS val 915967825 ecr 3270229090], length 0
+14:27:16.714964 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 2390:2436, ack 4592, win 4096, options [nop,nop,TS val 915967825 ecr 3270229090], length 46
+14:27:16.769135 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 2390:2436, ack 4592, win 4096, options [nop,nop,TS val 915967879 ecr 3270229090], length 46
+14:27:16.776470 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 2436, win 192, options [nop,nop,TS val 3270229114 ecr 915967825], length 0
+14:27:16.788281 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 2436, win 192, options [nop,nop,TS val 3270229164 ecr 915967879,nop,nop,sack 1 {2390:2436}], length 0
+14:27:16.818827 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55013: Flags [.], ack 1701, win 353, options [nop,nop,TS val 1740307822 ecr 915967807], length 0
+14:27:17.727238 IP 192.0.76.3.https > 172.16.1.226.55509: Flags [P.], seq 3606418986:3606419032, ack 2959939660, win 64, length 46
+14:27:17.727295 IP 172.16.1.226.55509 > 192.0.76.3.https: Flags [.], ack 46, win 8190, length 0
+14:27:17.727587 IP 172.16.1.226.55509 > 192.0.76.3.https: Flags [F.], seq 1, ack 46, win 8192, length 0
+14:27:17.729618 IP 192.0.76.3.https > 172.16.1.226.55509: Flags [FP.], seq 46:77, ack 1, win 64, length 31
+14:27:17.729691 IP 172.16.1.226.55509 > 192.0.76.3.https: Flags [R], seq 2959939660, win 0, length 0
+14:27:17.745686 IP 192.0.76.3.https > 172.16.1.226.55509: Flags [.], ack 2, win 64, length 0
+14:27:17.745717 IP 172.16.1.226.55509 > 192.0.76.3.https: Flags [R], seq 2959939661, win 0, length 0
+14:27:18.070505 IP 172.16.1.226.56927 > ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain: 9898+ PTR? 3.76.0.192.in-addr.arpa. (41)
+14:27:18.101126 IP ec2-50-18-198-228.us-west-1.compute.amazonaws.com.domain > 172.16.1.226.56927: 9898 NXDomain 0/0/0 (41)
+14:27:26.779314 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 2436:3326, ack 4592, win 4096, options [nop,nop,TS val 915977880 ecr 3270229164], length 890
+14:27:26.822236 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 3326, win 202, options [nop,nop,TS val 3270239193 ecr 915977880], length 0
+14:27:26.826095 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 4592:4691, ack 3326, win 202, options [nop,nop,TS val 3270239199 ecr 915977880], length 99
+14:27:26.826146 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 4691, win 4092, options [nop,nop,TS val 915977925 ecr 3270239199], length 0
+14:27:26.832267 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 4691:5529, ack 3326, win 202, options [nop,nop,TS val 3270239199 ecr 915977880], length 838
+14:27:26.832313 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 5529, win 4069, options [nop,nop,TS val 915977931 ecr 3270239199], length 0
+14:27:26.834423 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 5529:5575, ack 3326, win 202, options [nop,nop,TS val 3270239199 ecr 915977880], length 46
+14:27:26.834468 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 5575, win 4094, options [nop,nop,TS val 915977933 ecr 3270239199], length 0
+14:27:26.834674 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 3326:3372, ack 5575, win 4096, options [nop,nop,TS val 915977933 ecr 3270239199], length 46
+14:27:26.897332 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 3372, win 202, options [nop,nop,TS val 3270239233 ecr 915977933], length 0
+14:27:32.237175 IP 172.16.1.226.55559 > ec2-52-4-166-83.compute-1.amazonaws.com.http: Flags [F.], seq 408, ack 301, win 4108, options [nop,nop,TS val 915983329 ecr 276333469], length 0
+14:27:32.250971 IP ec2-52-4-166-83.compute-1.amazonaws.com.http > 172.16.1.226.55559: Flags [F.], seq 301, ack 409, win 118, options [nop,nop,TS val 276341040 ecr 915983329], length 0
+14:27:32.251043 IP 172.16.1.226.55559 > ec2-52-4-166-83.compute-1.amazonaws.com.http: Flags [.], ack 302, win 4108, options [nop,nop,TS val 915983342 ecr 276341040], length 0
+14:27:32.482016 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 3372:3747, ack 5575, win 4096, options [nop,nop,TS val 915983572 ecr 3270239233], length 375
+14:27:32.504513 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 3747, win 213, options [nop,nop,TS val 3270244879 ecr 915983572], length 0
+14:27:32.508463 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 5575:5728, ack 3747, win 213, options [nop,nop,TS val 3270244884 ecr 915983572], length 153
+14:27:32.508514 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 5728, win 4091, options [nop,nop,TS val 915983597 ecr 3270244884], length 0
+14:27:32.511068 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 5728:5997, ack 3747, win 213, options [nop,nop,TS val 3270244885 ecr 915983572], length 269
+14:27:32.511101 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 5997, win 4087, options [nop,nop,TS val 915983599 ecr 3270244885], length 0
+14:27:32.513094 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 5997:6089, ack 3747, win 213, options [nop,nop,TS val 3270244885 ecr 915983572], length 92
+14:27:32.513130 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 6089, win 4093, options [nop,nop,TS val 915983600 ecr 3270244885], length 0
+14:27:32.514517 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 6089:6135, ack 3747, win 213, options [nop,nop,TS val 3270244885 ecr 915983572], length 46
+14:27:32.514604 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 6135, win 4091, options [nop,nop,TS val 915983601 ecr 3270244885], length 0
+14:27:32.515531 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 3747:3793, ack 6135, win 4096, options [nop,nop,TS val 915983601 ecr 3270244885], length 46
+14:27:32.520923 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 3793:3857, ack 6135, win 4096, options [nop,nop,TS val 915983607 ecr 3270244885], length 64
+14:27:32.556639 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 3857, win 213, options [nop,nop,TS val 3270244932 ecr 915983601], length 0
+14:27:32.561044 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 6135:6212, ack 3857, win 213, options [nop,nop,TS val 3270244936 ecr 915983601], length 77
+14:27:32.561097 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 6212, win 4093, options [nop,nop,TS val 915983646 ecr 3270244936], length 0
+14:27:32.562715 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 6212:6653, ack 3857, win 213, options [nop,nop,TS val 3270244936 ecr 915983601], length 441
+14:27:32.562761 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 6653, win 4082, options [nop,nop,TS val 915983647 ecr 3270244936], length 0
+14:27:32.564476 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 6653:6699, ack 3857, win 213, options [nop,nop,TS val 3270244936 ecr 915983601], length 46
+14:27:32.564518 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 6699, win 4094, options [nop,nop,TS val 915983648 ecr 3270244936], length 0
+14:27:32.564768 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 3857:3903, ack 6699, win 4096, options [nop,nop,TS val 915983648 ecr 3270244936], length 46
+14:27:32.581493 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 3903:4172, ack 6699, win 4096, options [nop,nop,TS val 915983664 ecr 3270244936], length 269
+14:27:32.624828 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 3903, win 213, options [nop,nop,TS val 3270244960 ecr 915983648], length 0
+14:27:32.625490 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 4172, win 224, options [nop,nop,TS val 3270245000 ecr 915983664], length 0
+14:27:32.629810 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 6699:7024, ack 4172, win 224, options [nop,nop,TS val 3270245005 ecr 915983664], length 325
+14:27:32.629864 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 7024, win 4085, options [nop,nop,TS val 915983711 ecr 3270245005], length 0
+14:27:32.630893 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 7024:7272, ack 4172, win 224, options [nop,nop,TS val 3270245005 ecr 915983664], length 248
+14:27:32.630978 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 7272, win 4088, options [nop,nop,TS val 915983712 ecr 3270245005], length 0
+14:27:32.635998 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 7272:7516, ack 4172, win 224, options [nop,nop,TS val 3270245006 ecr 915983664], length 244
+14:27:32.636045 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 7516, win 4088, options [nop,nop,TS val 915983717 ecr 3270245006], length 0
+14:27:32.638604 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 7516:7562, ack 4172, win 224, options [nop,nop,TS val 3270245006 ecr 915983664], length 46
+14:27:32.638646 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 7562, win 4094, options [nop,nop,TS val 915983719 ecr 3270245006], length 0
+14:27:32.638853 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 4172:4218, ack 7562, win 4096, options [nop,nop,TS val 915983719 ecr 3270245006], length 46
+14:27:32.650247 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 3636:4371, ack 2864, win 4096, options [nop,nop,TS val 915983730 ecr 134438522], length 735
+14:27:32.650519 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 4371:4625, ack 2864, win 4096, options [nop,nop,TS val 915983730 ecr 134438522], length 254
+14:27:32.652157 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 4625:4867, ack 2864, win 4096, options [nop,nop,TS val 915983731 ecr 134438522], length 242
+14:27:32.652224 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 4867:5121, ack 2864, win 4096, options [nop,nop,TS val 915983731 ecr 134438522], length 254
+14:27:32.653391 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 4218:5003, ack 7562, win 4096, options [nop,nop,TS val 915983732 ecr 3270245006], length 785
+14:27:32.679586 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 5003, win 234, options [nop,nop,TS val 3270245056 ecr 915983719], length 0
+14:27:32.686136 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 7562:7772, ack 5003, win 234, options [nop,nop,TS val 3270245061 ecr 915983719], length 210
+14:27:32.686188 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 7772, win 4089, options [nop,nop,TS val 915983764 ecr 3270245061], length 0
+14:27:32.687041 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 7772:7815, ack 5003, win 234, options [nop,nop,TS val 3270245061 ecr 915983719], length 43
+14:27:32.687065 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 7815, win 4088, options [nop,nop,TS val 915983764 ecr 3270245061], length 0
+14:27:32.692859 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 5003:5045, ack 7815, win 4096, options [nop,nop,TS val 915983770 ecr 3270245061], length 42
+14:27:32.699735 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 5045:5918, ack 7815, win 4096, options [nop,nop,TS val 915983776 ecr 3270245061], length 873
+14:27:32.699830 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 5918:5963, ack 7815, win 4096, options [nop,nop,TS val 915983776 ecr 3270245061], length 45
+14:27:32.729678 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 5963, win 245, options [nop,nop,TS val 3270245105 ecr 915983770], length 0
+14:27:32.735865 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 7815:8049, ack 5963, win 245, options [nop,nop,TS val 3270245111 ecr 915983770], length 234
+14:27:32.735909 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 8049, win 4088, options [nop,nop,TS val 915983811 ecr 3270245111], length 0
+14:27:32.737925 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 8049:8241, ack 5963, win 245, options [nop,nop,TS val 3270245111 ecr 915983770], length 192
+14:27:32.738007 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 8241, win 4090, options [nop,nop,TS val 915983813 ecr 3270245111], length 0
+14:27:32.738431 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 8241:8448, ack 5963, win 245, options [nop,nop,TS val 3270245113 ecr 915983770], length 207
+14:27:32.738434 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 8448:8494, ack 5963, win 245, options [nop,nop,TS val 3270245113 ecr 915983770], length 46
+14:27:32.738498 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 8448, win 4083, options [nop,nop,TS val 915983813 ecr 3270245113], length 0
+14:27:32.738518 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 8494, win 4082, options [nop,nop,TS val 915983813 ecr 3270245113], length 0
+14:27:32.739533 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 5963:6009, ack 8494, win 4096, options [nop,nop,TS val 915983814 ecr 3270245113], length 46
+14:27:32.740322 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 4371, win 811, options [nop,nop,TS val 134483115 ecr 915983730], length 0
+14:27:32.741470 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 4625, win 811, options [nop,nop,TS val 134483115 ecr 915983730], length 0
+14:27:32.742445 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 4867, win 811, options [nop,nop,TS val 134483115 ecr 915983731], length 0
+14:27:32.742447 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 5121, win 811, options [nop,nop,TS val 134483115 ecr 915983731], length 0
+14:27:32.799199 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 6009, win 245, options [nop,nop,TS val 3270245136 ecr 915983814], length 0
+14:27:32.887670 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 2864:3136, ack 5121, win 811, options [nop,nop,TS val 134483262 ecr 915983731], length 272
+14:27:32.887738 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 3136, win 4087, options [nop,nop,TS val 915983960 ecr 134483262], length 0
+14:27:32.890342 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 3136:3732, ack 5121, win 811, options [nop,nop,TS val 134483262 ecr 915983731], length 596
+14:27:32.890345 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 3732:3778, ack 5121, win 811, options [nop,nop,TS val 134483263 ecr 915983731], length 46
+14:27:32.890392 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 3732, win 4077, options [nop,nop,TS val 915983962 ecr 134483262], length 0
+14:27:32.890411 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 3778, win 4075, options [nop,nop,TS val 915983962 ecr 134483263], length 0
+14:27:32.891696 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 5121:5167, ack 3778, win 4096, options [nop,nop,TS val 915983963 ecr 134483263], length 46
+14:27:32.899435 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 6009:6827, ack 8494, win 4096, options [nop,nop,TS val 915983970 ecr 3270245136], length 818
+14:27:32.904622 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 3778:4050, ack 5121, win 811, options [nop,nop,TS val 134483279 ecr 915983731], length 272
+14:27:32.904658 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 4050, win 4087, options [nop,nop,TS val 915983975 ecr 134483279], length 0
+14:27:32.906062 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 4050:4341, ack 5121, win 811, options [nop,nop,TS val 134483279 ecr 915983731], length 291
+14:27:32.906097 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 4341, win 4086, options [nop,nop,TS val 915983976 ecr 134483279], length 0
+14:27:32.906901 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 4341:4535, ack 5121, win 811, options [nop,nop,TS val 134483279 ecr 915983731], length 194
+14:27:32.906951 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 4535, win 4089, options [nop,nop,TS val 915983976 ecr 134483279], length 0
+14:27:32.912168 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 6827:7639, ack 8494, win 4096, options [nop,nop,TS val 915983982 ecr 3270245136], length 812
+14:27:32.912210 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 7639:7992, ack 8494, win 4096, options [nop,nop,TS val 915983982 ecr 3270245136], length 353
+14:27:32.920477 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 6827, win 256, options [nop,nop,TS val 3270245297 ecr 915983970], length 0
+14:27:32.926133 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 8494:8705, ack 6827, win 256, options [nop,nop,TS val 3270245302 ecr 915983970], length 211
+14:27:32.926192 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 8705, win 4089, options [nop,nop,TS val 915983995 ecr 3270245302], length 0
+14:27:32.930736 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 8705:8900, ack 6827, win 256, options [nop,nop,TS val 3270245302 ecr 915983970], length 195
+14:27:32.930794 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 8900, win 4089, options [nop,nop,TS val 915983999 ecr 3270245302], length 0
+14:27:32.938156 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 7992, win 277, options [nop,nop,TS val 3270245314 ecr 915983982], length 0
+14:27:32.943572 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 8900:9115, ack 7992, win 277, options [nop,nop,TS val 3270245319 ecr 915983982], length 215
+14:27:32.943618 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 9115, win 4089, options [nop,nop,TS val 915984011 ecr 3270245319], length 0
+14:27:32.943961 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 9115:9311, ack 7992, win 277, options [nop,nop,TS val 3270245319 ecr 915983982], length 196
+14:27:32.943964 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 9311:9371, ack 7992, win 277, options [nop,nop,TS val 3270245320 ecr 915983982], length 60
+14:27:32.944002 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 9311, win 4089, options [nop,nop,TS val 915984011 ecr 3270245319], length 0
+14:27:32.944026 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 9371, win 4088, options [nop,nop,TS val 915984011 ecr 3270245320], length 0
+14:27:32.944422 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 9371:9417, ack 7992, win 277, options [nop,nop,TS val 3270245320 ecr 915983982], length 46
+14:27:32.944450 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 9417, win 4094, options [nop,nop,TS val 915984011 ecr 3270245320], length 0
+14:27:32.944631 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 7992:8038, ack 9417, win 4096, options [nop,nop,TS val 915984012 ecr 3270245320], length 46
+14:27:32.949531 IP 172.16.1.226.55492 > sfo03s06-in-f14.1e100.net.https: Flags [P.], seq 4258808711:4258809611, ack 850347912, win 4096, options [nop,nop,TS val 915984016 ecr 1030768288], length 900
+14:27:32.951458 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 5167:5902, ack 4535, win 4096, options [nop,nop,TS val 915984017 ecr 134483279], length 735
+14:27:32.951533 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 5902:6176, ack 4535, win 4096, options [nop,nop,TS val 915984017 ecr 134483279], length 274
+14:27:32.954913 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 8038:8949, ack 9417, win 4096, options [nop,nop,TS val 915984020 ecr 3270245320], length 911
+14:27:32.954993 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], seq 8949:10317, ack 9417, win 4096, options [nop,nop,TS val 915984020 ecr 3270245320], length 1368
+14:27:32.954998 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 10317:10791, ack 9417, win 4096, options [nop,nop,TS val 915984020 ecr 3270245320], length 474
+14:27:32.981012 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 5167, win 811, options [nop,nop,TS val 134483356 ecr 915983963], length 0
+14:27:32.993244 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 10317, win 299, options [nop,nop,TS val 3270245369 ecr 915984012], length 0
+14:27:33.030301 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 9417:9739, ack 10791, win 309, options [nop,nop,TS val 3270245406 ecr 915984020], length 322
+14:27:33.030393 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 9739, win 4085, options [nop,nop,TS val 915984095 ecr 3270245406], length 0
+14:27:33.031974 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 9739:10036, ack 10791, win 309, options [nop,nop,TS val 3270245406 ecr 915984020], length 297
+14:27:33.032019 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 10036, win 4086, options [nop,nop,TS val 915984096 ecr 3270245406], length 0
+14:27:33.032422 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 10036:10251, ack 10791, win 309, options [nop,nop,TS val 3270245407 ecr 915984020], length 215
+14:27:33.032426 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 10251:10459, ack 10791, win 309, options [nop,nop,TS val 3270245407 ecr 915984020], length 208
+14:27:33.032429 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 10459:10649, ack 10791, win 309, options [nop,nop,TS val 3270245407 ecr 915984020], length 190
+14:27:33.032431 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 10649:10695, ack 10791, win 309, options [nop,nop,TS val 3270245407 ecr 915984020], length 46
+14:27:33.032484 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 10251, win 4089, options [nop,nop,TS val 915984096 ecr 3270245407], length 0
+14:27:33.032506 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 10459, win 4082, options [nop,nop,TS val 915984096 ecr 3270245407], length 0
+14:27:33.032520 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 10649, win 4076, options [nop,nop,TS val 915984096 ecr 3270245407], length 0
+14:27:33.032541 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 10695, win 4075, options [nop,nop,TS val 915984096 ecr 3270245407], length 0
+14:27:33.033683 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [P.], seq 10791:10837, ack 10695, win 4096, options [nop,nop,TS val 915984097 ecr 3270245407], length 46
+14:27:33.033835 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 10695:11047, ack 10791, win 309, options [nop,nop,TS val 3270245408 ecr 915984020], length 352
+14:27:33.033861 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 11047, win 4085, options [nop,nop,TS val 915984097 ecr 3270245408], length 0
+14:27:33.035775 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 11047:11421, ack 10791, win 309, options [nop,nop,TS val 3270245409 ecr 915984020], length 374
+14:27:33.035778 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [P.], seq 11421:11744, ack 10791, win 309, options [nop,nop,TS val 3270245409 ecr 915984020], length 323
+14:27:33.035817 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 11421, win 4084, options [nop,nop,TS val 915984099 ecr 3270245409], length 0
+14:27:33.035833 IP 172.16.1.226.55561 > qs-in-f189.1e100.net.https: Flags [.], ack 11744, win 4074, options [nop,nop,TS val 915984099 ecr 3270245409], length 0
+14:27:33.040190 IP sfo03s06-in-f14.1e100.net.https > 172.16.1.226.55492: Flags [.], ack 900, win 218, options [nop,nop,TS val 1030914074 ecr 915984016], length 0
+14:27:33.042606 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 5902, win 811, options [nop,nop,TS val 134483417 ecr 915984017], length 0
+14:27:33.043564 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 6176, win 810, options [nop,nop,TS val 134483417 ecr 915984017], length 0
+14:27:33.060606 IP sfo03s06-in-f14.1e100.net.https > 172.16.1.226.55492: Flags [P.], seq 1:102, ack 900, win 218, options [nop,nop,TS val 1030914095 ecr 915984016], length 101
+14:27:33.060667 IP 172.16.1.226.55492 > sfo03s06-in-f14.1e100.net.https: Flags [.], ack 102, win 4092, options [nop,nop,TS val 915984123 ecr 1030914095], length 0
+14:27:33.061522 IP 172.16.1.226.55492 > sfo03s06-in-f14.1e100.net.https: Flags [P.], seq 900:946, ack 102, win 4096, options [nop,nop,TS val 915984123 ecr 1030914095], length 46
+14:27:33.068710 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], seq 6176:7544, ack 4535, win 4096, options [nop,nop,TS val 915984131 ecr 134483417], length 1368
+14:27:33.068721 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 7544:7775, ack 4535, win 4096, options [nop,nop,TS val 915984131 ecr 134483417], length 231
+14:27:33.068811 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 7775:7929, ack 4535, win 4096, options [nop,nop,TS val 915984131 ecr 134483417], length 154
+14:27:33.103239 IP qs-in-f189.1e100.net.https > 172.16.1.226.55561: Flags [.], ack 10837, win 309, options [nop,nop,TS val 3270245440 ecr 915984097], length 0
+14:27:33.116652 IP 172.16.1.226.65226 > 172.16.1.1.domain: 55975+ PTR? 238.195.58.216.in-addr.arpa. (45)
+14:27:33.142975 IP 172.16.1.1.domain > 172.16.1.226.65226: 55975 2/6/5 PTR sfo03s06-in-f14.1e100.net., PTR sfo03s06-in-f238.1e100.net. (312)
+14:27:33.150873 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 7544, win 811, options [nop,nop,TS val 134483526 ecr 915984131], length 0
+14:27:33.167876 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 7775, win 811, options [nop,nop,TS val 134483543 ecr 915984131], length 0
+14:27:33.172356 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 7929, win 811, options [nop,nop,TS val 134483547 ecr 915984131], length 0
+14:27:33.185157 IP sfo03s06-in-f14.1e100.net.https > 172.16.1.226.55492: Flags [.], ack 946, win 218, options [nop,nop,TS val 1030914178 ecr 915984123], length 0
+14:27:33.202302 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 4535:4801, ack 7929, win 811, options [nop,nop,TS val 134483578 ecr 915984131], length 266
+14:27:33.202332 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 4801, win 4087, options [nop,nop,TS val 915984262 ecr 134483578], length 0
+14:27:33.203396 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 4801:5011, ack 7929, win 811, options [nop,nop,TS val 134483578 ecr 915984131], length 210
+14:27:33.203398 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 5011:5243, ack 7929, win 811, options [nop,nop,TS val 134483578 ecr 915984131], length 232
+14:27:33.203399 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 5243:5289, ack 7929, win 811, options [nop,nop,TS val 134483578 ecr 915984131], length 46
+14:27:33.203435 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 5011, win 4089, options [nop,nop,TS val 915984263 ecr 134483578], length 0
+14:27:33.203447 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 5243, win 4082, options [nop,nop,TS val 915984263 ecr 134483578], length 0
+14:27:33.203453 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 5289, win 4080, options [nop,nop,TS val 915984263 ecr 134483578], length 0
+14:27:33.203928 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 7929:7975, ack 5289, win 4096, options [nop,nop,TS val 915984263 ecr 134483578], length 46
+14:27:33.284546 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 5289:5559, ack 7975, win 811, options [nop,nop,TS val 134483660 ecr 915984263], length 270
+14:27:33.284593 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 5559, win 4087, options [nop,nop,TS val 915984343 ecr 134483660], length 0
+14:27:33.285467 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 5559:6001, ack 7975, win 811, options [nop,nop,TS val 134483660 ecr 915984263], length 442
+14:27:33.285503 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 6001, win 4082, options [nop,nop,TS val 915984343 ecr 134483660], length 0
+14:27:33.395593 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 7975:8724, ack 6001, win 4096, options [nop,nop,TS val 915984453 ecr 134483660], length 749
+14:27:33.395662 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 8724:8906, ack 6001, win 4096, options [nop,nop,TS val 915984453 ecr 134483660], length 182
+14:27:33.498092 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 8906, win 811, options [nop,nop,TS val 134483854 ecr 915984453], length 0
+14:27:33.584746 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 6001:6269, ack 8906, win 811, options [nop,nop,TS val 134483956 ecr 915984453], length 268
+14:27:33.584808 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 6269, win 4087, options [nop,nop,TS val 915984639 ecr 134483956], length 0
+14:27:33.585106 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 6269:6442, ack 8906, win 811, options [nop,nop,TS val 134483956 ecr 915984453], length 173
+14:27:33.585110 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 6442:6567, ack 8906, win 811, options [nop,nop,TS val 134483956 ecr 915984453], length 125
+14:27:33.585113 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [P.], seq 6567:6613, ack 8906, win 811, options [nop,nop,TS val 134483956 ecr 915984453], length 46
+14:27:33.585180 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 6442, win 4090, options [nop,nop,TS val 915984639 ecr 134483956], length 0
+14:27:33.585209 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 6567, win 4086, options [nop,nop,TS val 915984639 ecr 134483956], length 0
+14:27:33.585228 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [.], ack 6613, win 4090, options [nop,nop,TS val 915984639 ecr 134483956], length 0
+14:27:33.586066 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 8906:8952, ack 6613, win 4096, options [nop,nop,TS val 915984640 ecr 134483956], length 46
+14:27:33.779411 IP 172.16.1.226.55012 > sfo07s13-in-f14.1e100.net.https: Flags [P.], seq 8906:8952, ack 6613, win 4096, options [nop,nop,TS val 915984833 ecr 134483956], length 46
+14:27:33.781697 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 8952, win 811, options [nop,nop,TS val 134484041 ecr 915984640], length 0
+14:27:33.863140 IP sfo07s13-in-f14.1e100.net.https > 172.16.1.226.55012: Flags [.], ack 8952, win 811, options [nop,nop,TS val 134484238 ecr 915984833,nop,nop,sack 1 {8906:8952}], length 0
+14:27:34.020069 IP 192.0.76.3.https > 172.16.1.226.55501: Flags [P.], seq 1681837637:1681837683, ack 3046251288, win 62, length 46
+14:27:34.020127 IP 172.16.1.226.55501 > 192.0.76.3.https: Flags [.], ack 46, win 8190, length 0
+14:27:34.020551 IP 172.16.1.226.55501 > 192.0.76.3.https: Flags [F.], seq 1, ack 46, win 8192, length 0
+14:27:34.020595 IP 192.0.76.3.https > 172.16.1.226.55501: Flags [P.], seq 46:77, ack 1, win 62, length 31
+14:27:34.020602 IP 192.0.76.3.https > 172.16.1.226.55501: Flags [F.], seq 77, ack 1, win 62, length 0
+14:27:34.020666 IP 172.16.1.226.55501 > 192.0.76.3.https: Flags [F.], seq 1, ack 77, win 8191, length 0
+14:27:34.020695 IP 172.16.1.226.55501 > 192.0.76.3.https: Flags [F.], seq 1, ack 78, win 8191, length 0
+14:27:34.021203 IP 172.16.1.226.55501 > 192.0.76.3.https: Flags [F.], seq 1, ack 78, win 8192, length 0
+14:27:34.021402 IP 172.16.1.226.55501 > 192.0.76.3.https: Flags [F.], seq 1, ack 78, win 8192, length 0
+14:27:34.021417 IP 172.16.1.226.55501 > 192.0.76.3.https: Flags [F.], seq 1, ack 78, win 8192, length 0
+14:27:34.034891 IP 192.0.76.3.https > 172.16.1.226.55501: Flags [.], ack 2, win 62, length 0
+14:27:34.035694 IP 192.0.76.3.https > 172.16.1.226.55501: Flags [.], ack 2, win 62, options [nop,nop,sack 1 {1:2}], length 0
+14:27:34.039179 IP 192.0.76.3.https > 172.16.1.226.55501: Flags [.], ack 2, win 62, length 0
+14:27:34.039643 IP 192.0.76.3.https > 172.16.1.226.55501: Flags [.], ack 2, win 62, length 0
+14:27:34.039646 IP 192.0.76.3.https > 172.16.1.226.55501: Flags [.], ack 2, win 62, length 0
+14:27:34.110482 IP wordpress.com.https > 172.16.1.226.55530: Flags [P.], seq 843729442:843729488, ack 2024305527, win 64, length 46
+14:27:34.110540 IP 172.16.1.226.55530 > wordpress.com.https: Flags [.], ack 46, win 8190, length 0
+14:27:34.110822 IP 172.16.1.226.55530 > wordpress.com.https: Flags [F.], seq 1, ack 46, win 8192, length 0
+14:27:34.111670 IP wordpress.com.https > 172.16.1.226.55530: Flags [P.], seq 46:77, ack 1, win 64, length 31
+14:27:34.111740 IP 172.16.1.226.55530 > wordpress.com.https: Flags [R], seq 2024305527, win 0, length 0
+14:27:34.112554 IP wordpress.com.https > 172.16.1.226.55530: Flags [F.], seq 77, ack 1, win 64, length 0
+14:27:34.112584 IP 172.16.1.226.55530 > wordpress.com.https: Flags [R], seq 2024305527, win 0, length 0
+14:27:34.113679 IP i0.wp.com.https > 172.16.1.226.55529: Flags [P.], seq 3136492110:3136492156, ack 1983406759, win 64, length 46
+14:27:34.113682 IP i0.wp.com.https > 172.16.1.226.55529: Flags [P.], seq 46:77, ack 1, win 64, length 31
+14:27:34.113738 IP 172.16.1.226.55529 > i0.wp.com.https: Flags [.], ack 46, win 8190, length 0
+14:27:34.113758 IP 172.16.1.226.55529 > i0.wp.com.https: Flags [.], ack 77, win 8189, length 0
+14:27:34.113915 IP 172.16.1.226.55529 > i0.wp.com.https: Flags [P.], seq 1:32, ack 77, win 8192, length 31
+14:27:34.114052 IP 172.16.1.226.55529 > i0.wp.com.https: Flags [F.], seq 32, ack 77, win 8192, length 0
+14:27:34.114901 IP i0.wp.com.https > 172.16.1.226.55529: Flags [F.], seq 77, ack 1, win 64, length 0
+14:27:34.114938 IP 172.16.1.226.55529 > i0.wp.com.https: Flags [F.], seq 32, ack 78, win 8192, length 0
+14:27:34.123442 IP wordpress.com.https > 172.16.1.226.55530: Flags [.], ack 2, win 64, length 0
+14:27:34.123476 IP 172.16.1.226.55530 > wordpress.com.https: Flags [R], seq 2024305528, win 0, length 0
+14:27:34.130340 IP i0.wp.com.https > 172.16.1.226.55529: Flags [R], seq 3136492188, win 0, length 0
+14:27:34.146215 IP 172.16.1.226.61140 > 172.16.1.1.domain: 58610+ PTR? 32.77.0.192.in-addr.arpa. (42)
+14:27:34.162723 IP 172.16.1.1.domain > 172.16.1.226.61140: 58610 1/6/5 PTR wordpress.com. (269)
+14:27:34.164023 IP 172.16.1.226.60768 > 172.16.1.1.domain: 1353+ PTR? 2.77.0.192.in-addr.arpa. (41)
+14:27:34.180322 IP 172.16.1.1.domain > 172.16.1.226.60768: 1353 3/6/8 PTR i0.wp.com., PTR i2.wp.com., PTR i1.wp.com. (346)
+

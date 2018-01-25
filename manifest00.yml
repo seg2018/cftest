@@ -1,0 +1,10 @@
+applications:
+- name: cf-spring
+  disk_quota: 512M
+  instances: 1
+  memory: 768M
+  routes:
+  - route: cf-spring-fantastic-roan.cfapps.io
+  services:
+  - cf-spring-db
+  stack: cflinuxfs2

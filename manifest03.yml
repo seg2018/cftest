@@ -1,0 +1,6 @@
+---
+applications:
+- name: NNNNNNNN
+  routes:
+  - route: XXXXXX.cfapps.io
+
